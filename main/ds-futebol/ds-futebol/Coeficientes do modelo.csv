@@ -1,0 +1,43 @@
+"";"Fator";"Time";"Coeficiente";"Erro_padrao";"Liga";"Ano"
+"1";"Ataque";"Amazonas";-0,0835962446929056;0;"Brasileirão";2025
+"2";"Ataque";"América Mineiro";0,0148683887928441;0,227187755005003;"Brasileirão";2025
+"3";"Ataque";"Athletic";0,039853149411118;0,227258605900621;"Brasileirão";2025
+"4";"Ataque";"Athletico Paranaense";0,261582846439287;0,215562053065892;"Brasileirão";2025
+"5";"Ataque";"Atlético Goianiense";-0,0478847657152398;0,229887178745789;"Brasileirão";2025
+"6";"Ataque";"Avaí";0,21356978074399;0,2173040206363;"Brasileirão";2025
+"7";"Ataque";"Botafogo-SP";-0,215696849541005;0,241862530686106;"Brasileirão";2025
+"8";"Ataque";"Chapecoense";0,226516247409721;0,21638404931173;"Brasileirão";2025
+"9";"Ataque";"Coritiba";-0,111174496119625;0,23257900072728;"Brasileirão";2025
+"10";"Ataque";"CRB";0,0933213263532192;0,222323040685155;"Brasileirão";2025
+"11";"Ataque";"Criciúma";0,137094531826783;0,220177981319293;"Brasileirão";2025
+"12";"Ataque";"Cuiabá";0,0401313488156493;0,225914068004545;"Brasileirão";2025
+"13";"Ataque";"Ferroviária";0,0473394803681422;0,22593309030786;"Brasileirão";2025
+"14";"Ataque";"Goiás";-0,000202803985324448;0,227140409773949;"Brasileirão";2025
+"15";"Ataque";"Novorizontino";-0,02088300952422;0,22848787531429;"Brasileirão";2025
+"16";"Ataque";"Operário-PR";-0,0479638763530445;0,231416976178321;"Brasileirão";2025
+"17";"Ataque";"Paysandu";-0,130365194379311;0,236241029264612;"Brasileirão";2025
+"18";"Ataque";"Remo";0,167423921752356;0,219205221762351;"Brasileirão";2025
+"19";"Ataque";"Vila Nova";-0,0576016250081818;0,231390796986755;"Brasileirão";2025
+"20";"Ataque";"Volta Redonda";-0,526332156594252;0,262442440334097;"Brasileirão";2025
+"21";"Defesa";"Amazonas";0,264808191070095;0;"Brasileirão";2025
+"22";"Defesa";"América Mineiro";0,080806064945656;0,205686397411498;"Brasileirão";2025
+"23";"Defesa";"Athletic";0,251766462371203;0,19559815089188;"Brasileirão";2025
+"24";"Defesa";"Athletico Paranaense";0,0786146389185594;0,20568201656846;"Brasileirão";2025
+"25";"Defesa";"Atlético Goianiense";-0,0741989149916298;0,214639448516995;"Brasileirão";2025
+"26";"Defesa";"Avaí";0,00512618289901989;0,209887975678741;"Brasileirão";2025
+"27";"Defesa";"Botafogo-SP";0,247380250459946;0,195563659257358;"Brasileirão";2025
+"28";"Defesa";"Chapecoense";-0,131043402038331;0,218207309491294;"Brasileirão";2025
+"29";"Defesa";"Coritiba";-0,607533255027528;0,253673140338244;"Brasileirão";2025
+"30";"Defesa";"CRB";-0,074981752565598;0,214645068583853;"Brasileirão";2025
+"31";"Defesa";"Criciúma";-0,215598890533301;0,224279333399405;"Brasileirão";2025
+"32";"Defesa";"Cuiabá";0,0907516222672879;0,204345846000268;"Brasileirão";2025
+"33";"Defesa";"Ferroviária";0,222665648099321;0,197593579626145;"Brasileirão";2025
+"34";"Defesa";"Goiás";-0,158493404735739;0,220127349509698;"Brasileirão";2025
+"35";"Defesa";"Novorizontino";-0,232079846060983;0,224216961731155;"Brasileirão";2025
+"36";"Defesa";"Operário-PR";0,0608960230848747;0,205617292163347;"Brasileirão";2025
+"37";"Defesa";"Paysandu";0,216259970827629;0,197567845676138;"Brasileirão";2025
+"38";"Defesa";"Remo";-0,0516126834159522;0,212964799823498;"Brasileirão";2025
+"39";"Defesa";"Vila Nova";0,0267339345746561;0,206938506035335;"Brasileirão";2025
+"40";"Defesa";"Volta Redonda";-0,000266840149186987;0,208318330122556;"Brasileirão";2025
+"41";"Intercepto";NA;0,0780860320392849;0,221360115555505;"Brasileirão";2025
+"42";"Mando_de_campo";NA;0,318347414227004;0,0707879747491207;"Brasileirão";2025
