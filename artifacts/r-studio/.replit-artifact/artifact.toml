@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "R Studio"
+description = "Um ambiente de programação em R no navegador, com editor de scripts, arquivos de exemplo, execução de código e console de resultados para aprendizado e exploração de dados."
+version = "1.0.0"
+id = "artifacts/r-studio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 26190
+
+[services.development]
+run = "pnpm --filter @workspace/r-studio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/r-studio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/r-studio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "26190"
+BASE_PATH = "/"
