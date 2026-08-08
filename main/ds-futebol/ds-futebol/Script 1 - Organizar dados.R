@@ -1,5 +1,5 @@
-library(dplyr)
-library(stringr)
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(stringr))
 
 # Apenas um arquivo
 arquivo <- "Resultados.csv"

@@ -1,4 +1,4 @@
-library(dplyr)
+suppressPackageStartupMessages(library(dplyr))
 
 # Leitura dos dados
 dados <- read.csv2("Dados Série B.csv", fileEncoding = "latin1", check.names = FALSE)

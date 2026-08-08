@@ -8,3 +8,9 @@ The global R library under `/nix/store` is not writable. The available package-m
 **Why:** Direct CRAN installation to the global library fails, while source installation into a project-local library can exceed the command timeout for compiled dependencies.
 
 **How to apply:** Prefer a verified project-local library and explicitly configure `.libPaths()`/`R_LIBS_USER`; always test `requireNamespace()` in a fresh `Rscript` process before saying a package is installed.
+
+The football analysis scripts use the tidyverse components directly (`dplyr`, `stringr`, `tidyr`, and `purrr`) instead of requiring the aggregate `tidyverse` package; this works with the installed R environment and avoids its optional dependency chain.
+
+**Why:** The aggregate package could not be made visible to the active R 4.5 runtime, while all required components were installed and verified.
+
+**How to apply:** For these scripts, keep component imports and use `suppressPackageStartupMessages()` to avoid normal attach/masking messages while preserving real warnings and errors.

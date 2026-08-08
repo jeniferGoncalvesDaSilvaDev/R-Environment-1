@@ -1,7 +1,7 @@
-library(dplyr)
-library(tidyr)
-library(purrr)
-library(data.table)
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(tidyr))
+suppressPackageStartupMessages(library(purrr))
+suppressPackageStartupMessages(library(data.table))
 
 # Leitura dos dados
 dados <- read.csv2("Dados Série B.csv", fileEncoding = "latin1", check.names = FALSE)
@@ -9,40 +9,47 @@ coeficientes <- read.csv2("Coeficientes do modelo.csv", fileEncoding = "latin1")
 partidas_faltantes <- read.csv2("Partidas que faltam.csv", fileEncoding = "latin1")
 
 # Adição dos valores dos parâmetros de cada time
-partidas_faltantes_com_fatores_de_ataque_do_mandante <- partidas_faltantes |>
-  merge(
-    coeficientes[which(coeficientes$Fator == "Ataque"), c(3 : 4)],
-    all.x = T,
-    by.x = "Mandante",
-    by.y = "Time"
+coeficientes_de_ataque <- coeficientes |>
+  filter(Fator == "Ataque") |>
+  select(Time, Coeficiente)
+
+coeficientes_de_defesa <- coeficientes |>
+  filter(Fator == "Defesa") |>
+  select(Time, Coeficiente)
+
+partidas_faltantes_com_fatores_de_ataque_e_defesa <- partidas_faltantes |>
+  left_join(
+    coeficientes_de_ataque |>
+      rename(
+        Mandante = Time,
+        Fator_de_ataque_do_mandante = Coeficiente
+      ),
+    by = "Mandante"
+  ) |>
+  left_join(
+    coeficientes_de_ataque |>
+      rename(
+        Visitante = Time,
+        Fator_de_ataque_do_visitante = Coeficiente
+      ),
+    by = "Visitante"
+  ) |>
+  left_join(
+    coeficientes_de_defesa |>
+      rename(
+        Mandante = Time,
+        Fator_de_defesa_do_mandante = Coeficiente
+      ),
+    by = "Mandante"
+  ) |>
+  left_join(
+    coeficientes_de_defesa |>
+      rename(
+        Visitante = Time,
+        Fator_de_defesa_do_visitante = Coeficiente
+      ),
+    by = "Visitante"
   )
-partidas_faltantes_com_fatores_de_ataque <- partidas_faltantes_com_fatores_de_ataque_do_mandante |>
-  merge(
-    coeficientes[which(coeficientes$Fator == "Ataque"), c(3 : 4)],
-    all.x = T,
-    by.x = "Visitante",
-    by.y = "Time"
-  )
-partidas_faltantes_com_fatores_de_defesa_do_mandante <- partidas_faltantes_com_fatores_de_ataque |>
-  merge(
-    coeficientes[which(coeficientes$Fator == "Defesa"), c(3 : 4)],
-    all.x = T,
-    by.x = "Mandante",
-    by.y = "Time"
-  )
-partidas_faltantes_com_fatores_de_ataque_e_defesa <- partidas_faltantes_com_fatores_de_defesa_do_mandante |>
-  merge(
-    coeficientes[which(coeficientes$Fator == "Defesa"), c(3 : 4)],
-    all.x = T,
-    by.x = "Visitante",
-    by.y = "Time"
-  )
-colnames(partidas_faltantes_com_fatores_de_ataque_e_defesa)[5 : 8] <- c(
-  "Fator_de_ataque_do_mandante",
-  "Fator_de_ataque_do_visitante",
-  "Fator_de_defesa_do_mandante",
-  "Fator_de_defesa_do_visitante"
-) 
 
 # Adição dos valores dos parâmetros Intercepto e Mando de campo
 partidas_faltantes_com_fatores_de_ataque_e_defesa$Intercepto <- coeficientes$Coeficiente[which(coeficientes$Fator == "Intercepto")]
@@ -228,21 +235,19 @@ previsao_de_resultados_do_visitante <- previsao_de_resultados_do_visitante |>
 previsao_de_pontos_do_mandante <- previsao_de_resultados_do_mandante |>
   mutate(across(
     everything(),
-    ~ case_match(
-      .x,
-      "Vitória" ~ 3,
-      "Empate"  ~ 1,
-      "Derrota" ~ 0
+    ~ case_when(
+      .x == "Vitória" ~ 3,
+      .x == "Empate" ~ 1,
+      .x == "Derrota" ~ 0
     )
   ))
 previsao_de_pontos_do_visitante <- previsao_de_resultados_do_visitante |>
   mutate(across(
     everything(),
-    ~ case_match(
-      .x,
-      "Vitória" ~ 3,
-      "Empate"  ~ 1,
-      "Derrota" ~ 0
+    ~ case_when(
+      .x == "Vitória" ~ 3,
+      .x == "Empate" ~ 1,
+      .x == "Derrota" ~ 0
     )
   ))
 previsao_de_resultados_do_mandante <- cbind(
