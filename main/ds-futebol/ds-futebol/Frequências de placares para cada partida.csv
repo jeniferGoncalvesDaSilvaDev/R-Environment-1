@@ -1,19 +1,19 @@
 "gols_mandante";"gols_visitante";"frequencia";"Mandante";"Visitante";"Data";"Rodada"
-0;0;155;"Amazonas";"Coritiba";"23/11/2025";38
-1;0;94;"Amazonas";"Coritiba";"23/11/2025";38
-2;0;31;"Amazonas";"Coritiba";"23/11/2025";38
-3;0;6;"Amazonas";"Coritiba";"23/11/2025";38
-4;0;0;"Amazonas";"Coritiba";"23/11/2025";38
+0;0;134;"Amazonas";"Coritiba";"23/11/2025";38
+1;0;97;"Amazonas";"Coritiba";"23/11/2025";38
+2;0;47;"Amazonas";"Coritiba";"23/11/2025";38
+3;0;7;"Amazonas";"Coritiba";"23/11/2025";38
+4;0;2;"Amazonas";"Coritiba";"23/11/2025";38
 5;0;0;"Amazonas";"Coritiba";"23/11/2025";38
 6;0;0;"Amazonas";"Coritiba";"23/11/2025";38
 7;0;0;"Amazonas";"Coritiba";"23/11/2025";38
 8;0;0;"Amazonas";"Coritiba";"23/11/2025";38
 9;0;0;"Amazonas";"Coritiba";"23/11/2025";38
 10;0;0;"Amazonas";"Coritiba";"23/11/2025";38
-0;1;181;"Amazonas";"Coritiba";"23/11/2025";38
-1;1;114;"Amazonas";"Coritiba";"23/11/2025";38
-2;1;50;"Amazonas";"Coritiba";"23/11/2025";38
-3;1;10;"Amazonas";"Coritiba";"23/11/2025";38
+0;1;155;"Amazonas";"Coritiba";"23/11/2025";38
+1;1;120;"Amazonas";"Coritiba";"23/11/2025";38
+2;1;58;"Amazonas";"Coritiba";"23/11/2025";38
+3;1;5;"Amazonas";"Coritiba";"23/11/2025";38
 4;1;3;"Amazonas";"Coritiba";"23/11/2025";38
 5;1;0;"Amazonas";"Coritiba";"23/11/2025";38
 6;1;0;"Amazonas";"Coritiba";"23/11/2025";38
@@ -21,32 +21,32 @@
 8;1;0;"Amazonas";"Coritiba";"23/11/2025";38
 9;1;0;"Amazonas";"Coritiba";"23/11/2025";38
 10;1;0;"Amazonas";"Coritiba";"23/11/2025";38
-0;2;120;"Amazonas";"Coritiba";"23/11/2025";38
-1;2;61;"Amazonas";"Coritiba";"23/11/2025";38
-2;2;31;"Amazonas";"Coritiba";"23/11/2025";38
+0;2;99;"Amazonas";"Coritiba";"23/11/2025";38
+1;2;80;"Amazonas";"Coritiba";"23/11/2025";38
+2;2;36;"Amazonas";"Coritiba";"23/11/2025";38
 3;2;8;"Amazonas";"Coritiba";"23/11/2025";38
 4;2;1;"Amazonas";"Coritiba";"23/11/2025";38
-5;2;0;"Amazonas";"Coritiba";"23/11/2025";38
+5;2;1;"Amazonas";"Coritiba";"23/11/2025";38
 6;2;0;"Amazonas";"Coritiba";"23/11/2025";38
 7;2;0;"Amazonas";"Coritiba";"23/11/2025";38
 8;2;0;"Amazonas";"Coritiba";"23/11/2025";38
 9;2;0;"Amazonas";"Coritiba";"23/11/2025";38
 10;2;0;"Amazonas";"Coritiba";"23/11/2025";38
-0;3;40;"Amazonas";"Coritiba";"23/11/2025";38
-1;3;35;"Amazonas";"Coritiba";"23/11/2025";38
-2;3;11;"Amazonas";"Coritiba";"23/11/2025";38
-3;3;3;"Amazonas";"Coritiba";"23/11/2025";38
-4;3;2;"Amazonas";"Coritiba";"23/11/2025";38
+0;3;39;"Amazonas";"Coritiba";"23/11/2025";38
+1;3;52;"Amazonas";"Coritiba";"23/11/2025";38
+2;3;18;"Amazonas";"Coritiba";"23/11/2025";38
+3;3;4;"Amazonas";"Coritiba";"23/11/2025";38
+4;3;0;"Amazonas";"Coritiba";"23/11/2025";38
 5;3;0;"Amazonas";"Coritiba";"23/11/2025";38
 6;3;0;"Amazonas";"Coritiba";"23/11/2025";38
 7;3;0;"Amazonas";"Coritiba";"23/11/2025";38
 8;3;0;"Amazonas";"Coritiba";"23/11/2025";38
 9;3;0;"Amazonas";"Coritiba";"23/11/2025";38
 10;3;0;"Amazonas";"Coritiba";"23/11/2025";38
-0;4;18;"Amazonas";"Coritiba";"23/11/2025";38
-1;4;10;"Amazonas";"Coritiba";"23/11/2025";38
-2;4;4;"Amazonas";"Coritiba";"23/11/2025";38
-3;4;0;"Amazonas";"Coritiba";"23/11/2025";38
+0;4;4;"Amazonas";"Coritiba";"23/11/2025";38
+1;4;13;"Amazonas";"Coritiba";"23/11/2025";38
+2;4;3;"Amazonas";"Coritiba";"23/11/2025";38
+3;4;1;"Amazonas";"Coritiba";"23/11/2025";38
 4;4;0;"Amazonas";"Coritiba";"23/11/2025";38
 5;4;0;"Amazonas";"Coritiba";"23/11/2025";38
 6;4;0;"Amazonas";"Coritiba";"23/11/2025";38
@@ -54,7 +54,7 @@
 8;4;0;"Amazonas";"Coritiba";"23/11/2025";38
 9;4;0;"Amazonas";"Coritiba";"23/11/2025";38
 10;4;0;"Amazonas";"Coritiba";"23/11/2025";38
-0;5;3;"Amazonas";"Coritiba";"23/11/2025";38
+0;5;8;"Amazonas";"Coritiba";"23/11/2025";38
 1;5;4;"Amazonas";"Coritiba";"23/11/2025";38
 2;5;1;"Amazonas";"Coritiba";"23/11/2025";38
 3;5;0;"Amazonas";"Coritiba";"23/11/2025";38
@@ -65,9 +65,9 @@
 8;5;0;"Amazonas";"Coritiba";"23/11/2025";38
 9;5;0;"Amazonas";"Coritiba";"23/11/2025";38
 10;5;0;"Amazonas";"Coritiba";"23/11/2025";38
-0;6;1;"Amazonas";"Coritiba";"23/11/2025";38
+0;6;0;"Amazonas";"Coritiba";"23/11/2025";38
 1;6;0;"Amazonas";"Coritiba";"23/11/2025";38
-2;6;1;"Amazonas";"Coritiba";"23/11/2025";38
+2;6;0;"Amazonas";"Coritiba";"23/11/2025";38
 3;6;0;"Amazonas";"Coritiba";"23/11/2025";38
 4;6;0;"Amazonas";"Coritiba";"23/11/2025";38
 5;6;0;"Amazonas";"Coritiba";"23/11/2025";38
@@ -78,7 +78,7 @@
 10;6;0;"Amazonas";"Coritiba";"23/11/2025";38
 0;7;0;"Amazonas";"Coritiba";"23/11/2025";38
 1;7;0;"Amazonas";"Coritiba";"23/11/2025";38
-2;7;2;"Amazonas";"Coritiba";"23/11/2025";38
+2;7;0;"Amazonas";"Coritiba";"23/11/2025";38
 3;7;0;"Amazonas";"Coritiba";"23/11/2025";38
 4;7;0;"Amazonas";"Coritiba";"23/11/2025";38
 5;7;0;"Amazonas";"Coritiba";"23/11/2025";38
@@ -120,10 +120,10 @@
 8;10;0;"Amazonas";"Coritiba";"23/11/2025";38
 9;10;0;"Amazonas";"Coritiba";"23/11/2025";38
 10;10;0;"Amazonas";"Coritiba";"23/11/2025";38
-0;0;47;"Athletic";"Paysandu";"23/11/2025";38
-1;0;72;"Athletic";"Paysandu";"23/11/2025";38
-2;0;83;"Athletic";"Paysandu";"23/11/2025";38
-3;0;52;"Athletic";"Paysandu";"23/11/2025";38
+0;0;48;"Athletic";"Paysandu";"23/11/2025";38
+1;0;83;"Athletic";"Paysandu";"23/11/2025";38
+2;0;89;"Athletic";"Paysandu";"23/11/2025";38
+3;0;38;"Athletic";"Paysandu";"23/11/2025";38
 4;0;23;"Athletic";"Paysandu";"23/11/2025";38
 5;0;7;"Athletic";"Paysandu";"23/11/2025";38
 6;0;1;"Athletic";"Paysandu";"23/11/2025";38
@@ -131,66 +131,66 @@
 8;0;0;"Athletic";"Paysandu";"23/11/2025";38
 9;0;0;"Athletic";"Paysandu";"23/11/2025";38
 10;0;0;"Athletic";"Paysandu";"23/11/2025";38
-0;1;56;"Athletic";"Paysandu";"23/11/2025";38
-1;1;106;"Athletic";"Paysandu";"23/11/2025";38
-2;1;90;"Athletic";"Paysandu";"23/11/2025";38
+0;1;58;"Athletic";"Paysandu";"23/11/2025";38
+1;1;102;"Athletic";"Paysandu";"23/11/2025";38
+2;1;85;"Athletic";"Paysandu";"23/11/2025";38
 3;1;59;"Athletic";"Paysandu";"23/11/2025";38
-4;1;36;"Athletic";"Paysandu";"23/11/2025";38
-5;1;11;"Athletic";"Paysandu";"23/11/2025";38
+4;1;41;"Athletic";"Paysandu";"23/11/2025";38
+5;1;14;"Athletic";"Paysandu";"23/11/2025";38
 6;1;4;"Athletic";"Paysandu";"23/11/2025";38
 7;1;1;"Athletic";"Paysandu";"23/11/2025";38
-8;1;0;"Athletic";"Paysandu";"23/11/2025";38
-9;1;1;"Athletic";"Paysandu";"23/11/2025";38
+8;1;1;"Athletic";"Paysandu";"23/11/2025";38
+9;1;0;"Athletic";"Paysandu";"23/11/2025";38
 10;1;0;"Athletic";"Paysandu";"23/11/2025";38
-0;2;44;"Athletic";"Paysandu";"23/11/2025";38
-1;2;64;"Athletic";"Paysandu";"23/11/2025";38
-2;2;74;"Athletic";"Paysandu";"23/11/2025";38
+0;2;31;"Athletic";"Paysandu";"23/11/2025";38
+1;2;54;"Athletic";"Paysandu";"23/11/2025";38
+2;2;63;"Athletic";"Paysandu";"23/11/2025";38
 3;2;32;"Athletic";"Paysandu";"23/11/2025";38
-4;2;17;"Athletic";"Paysandu";"23/11/2025";38
-5;2;8;"Athletic";"Paysandu";"23/11/2025";38
-6;2;3;"Athletic";"Paysandu";"23/11/2025";38
-7;2;0;"Athletic";"Paysandu";"23/11/2025";38
+4;2;24;"Athletic";"Paysandu";"23/11/2025";38
+5;2;5;"Athletic";"Paysandu";"23/11/2025";38
+6;2;4;"Athletic";"Paysandu";"23/11/2025";38
+7;2;1;"Athletic";"Paysandu";"23/11/2025";38
 8;2;0;"Athletic";"Paysandu";"23/11/2025";38
 9;2;0;"Athletic";"Paysandu";"23/11/2025";38
 10;2;0;"Athletic";"Paysandu";"23/11/2025";38
-0;3;13;"Athletic";"Paysandu";"23/11/2025";38
-1;3;24;"Athletic";"Paysandu";"23/11/2025";38
-2;3;21;"Athletic";"Paysandu";"23/11/2025";38
-3;3;7;"Athletic";"Paysandu";"23/11/2025";38
-4;3;8;"Athletic";"Paysandu";"23/11/2025";38
+0;3;16;"Athletic";"Paysandu";"23/11/2025";38
+1;3;27;"Athletic";"Paysandu";"23/11/2025";38
+2;3;26;"Athletic";"Paysandu";"23/11/2025";38
+3;3;13;"Athletic";"Paysandu";"23/11/2025";38
+4;3;10;"Athletic";"Paysandu";"23/11/2025";38
 5;3;0;"Athletic";"Paysandu";"23/11/2025";38
 6;3;1;"Athletic";"Paysandu";"23/11/2025";38
 7;3;0;"Athletic";"Paysandu";"23/11/2025";38
 8;3;0;"Athletic";"Paysandu";"23/11/2025";38
 9;3;0;"Athletic";"Paysandu";"23/11/2025";38
 10;3;0;"Athletic";"Paysandu";"23/11/2025";38
-0;4;3;"Athletic";"Paysandu";"23/11/2025";38
-1;4;3;"Athletic";"Paysandu";"23/11/2025";38
-2;4;9;"Athletic";"Paysandu";"23/11/2025";38
-3;4;9;"Athletic";"Paysandu";"23/11/2025";38
-4;4;3;"Athletic";"Paysandu";"23/11/2025";38
-5;4;0;"Athletic";"Paysandu";"23/11/2025";38
-6;4;0;"Athletic";"Paysandu";"23/11/2025";38
+0;4;7;"Athletic";"Paysandu";"23/11/2025";38
+1;4;4;"Athletic";"Paysandu";"23/11/2025";38
+2;4;11;"Athletic";"Paysandu";"23/11/2025";38
+3;4;3;"Athletic";"Paysandu";"23/11/2025";38
+4;4;2;"Athletic";"Paysandu";"23/11/2025";38
+5;4;2;"Athletic";"Paysandu";"23/11/2025";38
+6;4;2;"Athletic";"Paysandu";"23/11/2025";38
 7;4;0;"Athletic";"Paysandu";"23/11/2025";38
 8;4;0;"Athletic";"Paysandu";"23/11/2025";38
 9;4;0;"Athletic";"Paysandu";"23/11/2025";38
 10;4;0;"Athletic";"Paysandu";"23/11/2025";38
 0;5;2;"Athletic";"Paysandu";"23/11/2025";38
-1;5;0;"Athletic";"Paysandu";"23/11/2025";38
+1;5;3;"Athletic";"Paysandu";"23/11/2025";38
 2;5;1;"Athletic";"Paysandu";"23/11/2025";38
 3;5;0;"Athletic";"Paysandu";"23/11/2025";38
 4;5;0;"Athletic";"Paysandu";"23/11/2025";38
-5;5;2;"Athletic";"Paysandu";"23/11/2025";38
+5;5;0;"Athletic";"Paysandu";"23/11/2025";38
 6;5;0;"Athletic";"Paysandu";"23/11/2025";38
 7;5;0;"Athletic";"Paysandu";"23/11/2025";38
 8;5;0;"Athletic";"Paysandu";"23/11/2025";38
 9;5;0;"Athletic";"Paysandu";"23/11/2025";38
 10;5;0;"Athletic";"Paysandu";"23/11/2025";38
-0;6;2;"Athletic";"Paysandu";"23/11/2025";38
+0;6;0;"Athletic";"Paysandu";"23/11/2025";38
 1;6;0;"Athletic";"Paysandu";"23/11/2025";38
 2;6;0;"Athletic";"Paysandu";"23/11/2025";38
 3;6;0;"Athletic";"Paysandu";"23/11/2025";38
-4;6;0;"Athletic";"Paysandu";"23/11/2025";38
+4;6;1;"Athletic";"Paysandu";"23/11/2025";38
 5;6;0;"Athletic";"Paysandu";"23/11/2025";38
 6;6;0;"Athletic";"Paysandu";"23/11/2025";38
 7;6;0;"Athletic";"Paysandu";"23/11/2025";38
@@ -241,66 +241,66 @@
 8;10;0;"Athletic";"Paysandu";"23/11/2025";38
 9;10;0;"Athletic";"Paysandu";"23/11/2025";38
 10;10;0;"Athletic";"Paysandu";"23/11/2025";38
-0;0;38;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-1;0;83;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+0;0;44;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+1;0;86;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 2;0;87;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-3;0;62;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-4;0;28;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+3;0;56;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+4;0;33;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 5;0;10;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-6;0;3;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-7;0;1;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+6;0;5;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+7;0;2;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 8;0;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 9;0;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 10;0;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-0;1;42;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-1;1;88;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-2;1;98;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-3;1;78;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-4;1;31;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-5;1;20;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-6;1;6;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-7;1;1;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+0;1;56;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+1;1;89;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+2;1;97;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+3;1;57;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+4;1;28;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+5;1;11;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+6;1;5;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+7;1;2;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 8;1;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 9;1;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 10;1;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-0;2;18;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-1;2;55;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-2;2;48;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-3;2;41;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-4;2;25;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-5;2;7;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+0;2;28;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+1;2;64;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+2;2;54;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+3;2;34;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+4;2;19;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+5;2;8;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 6;2;2;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-7;2;2;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+7;2;1;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 8;2;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 9;2;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 10;2;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-0;3;6;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-1;3;20;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-2;3;26;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-3;3;17;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-4;3;6;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-5;3;4;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-6;3;1;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+0;3;9;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+1;3;27;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+2;3;21;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+3;3;22;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+4;3;10;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+5;3;1;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+6;3;3;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 7;3;1;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 8;3;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 9;3;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 10;3;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-0;4;5;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-1;4;12;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-2;4;5;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-3;4;11;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-4;4;4;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-5;4;2;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+0;4;3;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+1;4;2;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+2;4;3;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+3;4;6;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+4;4;3;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+5;4;1;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 6;4;1;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 7;4;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 8;4;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 9;4;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 10;4;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-0;5;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-1;5;2;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-2;5;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-3;5;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-4;5;2;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+0;5;2;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+1;5;3;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+2;5;1;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+3;5;3;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+4;5;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 5;5;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 6;5;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 7;5;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
@@ -310,7 +310,7 @@
 0;6;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 1;6;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 2;6;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-3;6;1;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
+3;6;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 4;6;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 5;6;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 6;6;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
@@ -362,76 +362,76 @@
 8;10;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 9;10;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
 10;10;0;"Athletico Paranaense";"América Mineiro";"23/11/2025";38
-0;0;51;"Botafogo-SP";"Avaí";"23/11/2025";38
-1;0;62;"Botafogo-SP";"Avaí";"23/11/2025";38
-2;0;39;"Botafogo-SP";"Avaí";"23/11/2025";38
-3;0;15;"Botafogo-SP";"Avaí";"23/11/2025";38
-4;0;4;"Botafogo-SP";"Avaí";"23/11/2025";38
-5;0;0;"Botafogo-SP";"Avaí";"23/11/2025";38
+0;0;52;"Botafogo-SP";"Avaí";"23/11/2025";38
+1;0;65;"Botafogo-SP";"Avaí";"23/11/2025";38
+2;0;37;"Botafogo-SP";"Avaí";"23/11/2025";38
+3;0;10;"Botafogo-SP";"Avaí";"23/11/2025";38
+4;0;3;"Botafogo-SP";"Avaí";"23/11/2025";38
+5;0;1;"Botafogo-SP";"Avaí";"23/11/2025";38
 6;0;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 7;0;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 8;0;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 9;0;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 10;0;0;"Botafogo-SP";"Avaí";"23/11/2025";38
-0;1;92;"Botafogo-SP";"Avaí";"23/11/2025";38
-1;1;114;"Botafogo-SP";"Avaí";"23/11/2025";38
-2;1;74;"Botafogo-SP";"Avaí";"23/11/2025";38
-3;1;25;"Botafogo-SP";"Avaí";"23/11/2025";38
-4;1;8;"Botafogo-SP";"Avaí";"23/11/2025";38
-5;1;2;"Botafogo-SP";"Avaí";"23/11/2025";38
-6;1;0;"Botafogo-SP";"Avaí";"23/11/2025";38
+0;1;73;"Botafogo-SP";"Avaí";"23/11/2025";38
+1;1;108;"Botafogo-SP";"Avaí";"23/11/2025";38
+2;1;76;"Botafogo-SP";"Avaí";"23/11/2025";38
+3;1;24;"Botafogo-SP";"Avaí";"23/11/2025";38
+4;1;9;"Botafogo-SP";"Avaí";"23/11/2025";38
+5;1;5;"Botafogo-SP";"Avaí";"23/11/2025";38
+6;1;3;"Botafogo-SP";"Avaí";"23/11/2025";38
 7;1;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 8;1;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 9;1;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 10;1;0;"Botafogo-SP";"Avaí";"23/11/2025";38
-0;2;78;"Botafogo-SP";"Avaí";"23/11/2025";38
-1;2;101;"Botafogo-SP";"Avaí";"23/11/2025";38
-2;2;54;"Botafogo-SP";"Avaí";"23/11/2025";38
-3;2;16;"Botafogo-SP";"Avaí";"23/11/2025";38
-4;2;1;"Botafogo-SP";"Avaí";"23/11/2025";38
-5;2;0;"Botafogo-SP";"Avaí";"23/11/2025";38
-6;2;1;"Botafogo-SP";"Avaí";"23/11/2025";38
+0;2;80;"Botafogo-SP";"Avaí";"23/11/2025";38
+1;2;103;"Botafogo-SP";"Avaí";"23/11/2025";38
+2;2;62;"Botafogo-SP";"Avaí";"23/11/2025";38
+3;2;22;"Botafogo-SP";"Avaí";"23/11/2025";38
+4;2;11;"Botafogo-SP";"Avaí";"23/11/2025";38
+5;2;2;"Botafogo-SP";"Avaí";"23/11/2025";38
+6;2;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 7;2;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 8;2;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 9;2;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 10;2;0;"Botafogo-SP";"Avaí";"23/11/2025";38
-0;3;41;"Botafogo-SP";"Avaí";"23/11/2025";38
-1;3;67;"Botafogo-SP";"Avaí";"23/11/2025";38
-2;3;32;"Botafogo-SP";"Avaí";"23/11/2025";38
-3;3;16;"Botafogo-SP";"Avaí";"23/11/2025";38
-4;3;5;"Botafogo-SP";"Avaí";"23/11/2025";38
+0;3;49;"Botafogo-SP";"Avaí";"23/11/2025";38
+1;3;49;"Botafogo-SP";"Avaí";"23/11/2025";38
+2;3;25;"Botafogo-SP";"Avaí";"23/11/2025";38
+3;3;13;"Botafogo-SP";"Avaí";"23/11/2025";38
+4;3;3;"Botafogo-SP";"Avaí";"23/11/2025";38
 5;3;0;"Botafogo-SP";"Avaí";"23/11/2025";38
-6;3;0;"Botafogo-SP";"Avaí";"23/11/2025";38
+6;3;1;"Botafogo-SP";"Avaí";"23/11/2025";38
 7;3;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 8;3;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 9;3;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 10;3;0;"Botafogo-SP";"Avaí";"23/11/2025";38
-0;4;21;"Botafogo-SP";"Avaí";"23/11/2025";38
-1;4;25;"Botafogo-SP";"Avaí";"23/11/2025";38
-2;4;17;"Botafogo-SP";"Avaí";"23/11/2025";38
-3;4;7;"Botafogo-SP";"Avaí";"23/11/2025";38
+0;4;22;"Botafogo-SP";"Avaí";"23/11/2025";38
+1;4;32;"Botafogo-SP";"Avaí";"23/11/2025";38
+2;4;8;"Botafogo-SP";"Avaí";"23/11/2025";38
+3;4;6;"Botafogo-SP";"Avaí";"23/11/2025";38
 4;4;2;"Botafogo-SP";"Avaí";"23/11/2025";38
-5;4;1;"Botafogo-SP";"Avaí";"23/11/2025";38
+5;4;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 6;4;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 7;4;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 8;4;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 9;4;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 10;4;0;"Botafogo-SP";"Avaí";"23/11/2025";38
-0;5;7;"Botafogo-SP";"Avaí";"23/11/2025";38
-1;5;9;"Botafogo-SP";"Avaí";"23/11/2025";38
-2;5;2;"Botafogo-SP";"Avaí";"23/11/2025";38
-3;5;1;"Botafogo-SP";"Avaí";"23/11/2025";38
+0;5;10;"Botafogo-SP";"Avaí";"23/11/2025";38
+1;5;16;"Botafogo-SP";"Avaí";"23/11/2025";38
+2;5;8;"Botafogo-SP";"Avaí";"23/11/2025";38
+3;5;3;"Botafogo-SP";"Avaí";"23/11/2025";38
 4;5;1;"Botafogo-SP";"Avaí";"23/11/2025";38
-5;5;1;"Botafogo-SP";"Avaí";"23/11/2025";38
+5;5;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 6;5;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 7;5;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 8;5;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 9;5;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 10;5;0;"Botafogo-SP";"Avaí";"23/11/2025";38
-0;6;1;"Botafogo-SP";"Avaí";"23/11/2025";38
-1;6;5;"Botafogo-SP";"Avaí";"23/11/2025";38
+0;6;2;"Botafogo-SP";"Avaí";"23/11/2025";38
+1;6;2;"Botafogo-SP";"Avaí";"23/11/2025";38
 2;6;0;"Botafogo-SP";"Avaí";"23/11/2025";38
-3;6;0;"Botafogo-SP";"Avaí";"23/11/2025";38
+3;6;1;"Botafogo-SP";"Avaí";"23/11/2025";38
 4;6;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 5;6;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 6;6;0;"Botafogo-SP";"Avaí";"23/11/2025";38
@@ -440,8 +440,8 @@
 9;6;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 10;6;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 0;7;0;"Botafogo-SP";"Avaí";"23/11/2025";38
-1;7;2;"Botafogo-SP";"Avaí";"23/11/2025";38
-2;7;0;"Botafogo-SP";"Avaí";"23/11/2025";38
+1;7;0;"Botafogo-SP";"Avaí";"23/11/2025";38
+2;7;1;"Botafogo-SP";"Avaí";"23/11/2025";38
 3;7;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 4;7;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 5;7;0;"Botafogo-SP";"Avaí";"23/11/2025";38
@@ -483,64 +483,64 @@
 8;10;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 9;10;0;"Botafogo-SP";"Avaí";"23/11/2025";38
 10;10;0;"Botafogo-SP";"Avaí";"23/11/2025";38
-0;0;80;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-1;0;134;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-2;0;86;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-3;0;61;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-4;0;32;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-5;0;9;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-6;0;3;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+0;0;74;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+1;0;112;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+2;0;98;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+3;0;43;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+4;0;24;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+5;0;12;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+6;0;2;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 7;0;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 8;0;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 9;0;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 10;0;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-0;1;51;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-1;1;113;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-2;1;104;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-3;1;40;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-4;1;25;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-5;1;7;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-6;1;1;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-7;1;4;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-8;1;1;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+0;1;63;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+1;1;129;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+2;1;96;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+3;1;54;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+4;1;32;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+5;1;9;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+6;1;5;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+7;1;1;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+8;1;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 9;1;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 10;1;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-0;2;30;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-1;2;59;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-2;2;52;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-3;2;26;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-4;2;9;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-5;2;6;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-6;2;1;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+0;2;31;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+1;2;60;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+2;2;56;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+3;2;24;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+4;2;10;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+5;2;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+6;2;2;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 7;2;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 8;2;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 9;2;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 10;2;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-0;3;5;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-1;3;12;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-2;3;18;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-3;3;8;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-4;3;3;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+0;3;8;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+1;3;18;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+2;3;14;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+3;3;9;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+4;3;2;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 5;3;1;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 6;3;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 7;3;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 8;3;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 9;3;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 10;3;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-0;4;4;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-1;4;5;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-2;4;5;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-3;4;1;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-4;4;1;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+0;4;1;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+1;4;3;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+2;4;3;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+3;4;2;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+4;4;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 5;4;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 6;4;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 7;4;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 8;4;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 9;4;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 10;4;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-0;5;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+0;5;1;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 1;5;1;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-2;5;2;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
+2;5;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 3;5;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 4;5;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 5;5;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
@@ -604,65 +604,65 @@
 8;10;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 9;10;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
 10;10;0;"Chapecoense";"Atlético Goianiense";"23/11/2025";38
-0;0;68;"Cuiabá";"Criciúma";"23/11/2025";38
-1;0;115;"Cuiabá";"Criciúma";"23/11/2025";38
-2;0;49;"Cuiabá";"Criciúma";"23/11/2025";38
-3;0;21;"Cuiabá";"Criciúma";"23/11/2025";38
-4;0;6;"Cuiabá";"Criciúma";"23/11/2025";38
-5;0;2;"Cuiabá";"Criciúma";"23/11/2025";38
+0;0;87;"Cuiabá";"Criciúma";"23/11/2025";38
+1;0;87;"Cuiabá";"Criciúma";"23/11/2025";38
+2;0;61;"Cuiabá";"Criciúma";"23/11/2025";38
+3;0;18;"Cuiabá";"Criciúma";"23/11/2025";38
+4;0;10;"Cuiabá";"Criciúma";"23/11/2025";38
+5;0;0;"Cuiabá";"Criciúma";"23/11/2025";38
 6;0;0;"Cuiabá";"Criciúma";"23/11/2025";38
 7;0;1;"Cuiabá";"Criciúma";"23/11/2025";38
 8;0;0;"Cuiabá";"Criciúma";"23/11/2025";38
 9;0;0;"Cuiabá";"Criciúma";"23/11/2025";38
 10;0;0;"Cuiabá";"Criciúma";"23/11/2025";38
-0;1;94;"Cuiabá";"Criciúma";"23/11/2025";38
-1;1;121;"Cuiabá";"Criciúma";"23/11/2025";38
-2;1;80;"Cuiabá";"Criciúma";"23/11/2025";38
-3;1;42;"Cuiabá";"Criciúma";"23/11/2025";38
-4;1;6;"Cuiabá";"Criciúma";"23/11/2025";38
+0;1;109;"Cuiabá";"Criciúma";"23/11/2025";38
+1;1;139;"Cuiabá";"Criciúma";"23/11/2025";38
+2;1;70;"Cuiabá";"Criciúma";"23/11/2025";38
+3;1;24;"Cuiabá";"Criciúma";"23/11/2025";38
+4;1;8;"Cuiabá";"Criciúma";"23/11/2025";38
 5;1;2;"Cuiabá";"Criciúma";"23/11/2025";38
-6;1;1;"Cuiabá";"Criciúma";"23/11/2025";38
+6;1;0;"Cuiabá";"Criciúma";"23/11/2025";38
 7;1;0;"Cuiabá";"Criciúma";"23/11/2025";38
 8;1;0;"Cuiabá";"Criciúma";"23/11/2025";38
 9;1;0;"Cuiabá";"Criciúma";"23/11/2025";38
 10;1;0;"Cuiabá";"Criciúma";"23/11/2025";38
-0;2;53;"Cuiabá";"Criciúma";"23/11/2025";38
-1;2;89;"Cuiabá";"Criciúma";"23/11/2025";38
-2;2;59;"Cuiabá";"Criciúma";"23/11/2025";38
-3;2;24;"Cuiabá";"Criciúma";"23/11/2025";38
-4;2;8;"Cuiabá";"Criciúma";"23/11/2025";38
-5;2;3;"Cuiabá";"Criciúma";"23/11/2025";38
+0;2;59;"Cuiabá";"Criciúma";"23/11/2025";38
+1;2;91;"Cuiabá";"Criciúma";"23/11/2025";38
+2;2;48;"Cuiabá";"Criciúma";"23/11/2025";38
+3;2;23;"Cuiabá";"Criciúma";"23/11/2025";38
+4;2;3;"Cuiabá";"Criciúma";"23/11/2025";38
+5;2;2;"Cuiabá";"Criciúma";"23/11/2025";38
 6;2;0;"Cuiabá";"Criciúma";"23/11/2025";38
-7;2;1;"Cuiabá";"Criciúma";"23/11/2025";38
+7;2;0;"Cuiabá";"Criciúma";"23/11/2025";38
 8;2;0;"Cuiabá";"Criciúma";"23/11/2025";38
 9;2;0;"Cuiabá";"Criciúma";"23/11/2025";38
 10;2;0;"Cuiabá";"Criciúma";"23/11/2025";38
-0;3;33;"Cuiabá";"Criciúma";"23/11/2025";38
-1;3;31;"Cuiabá";"Criciúma";"23/11/2025";38
-2;3;23;"Cuiabá";"Criciúma";"23/11/2025";38
+0;3;27;"Cuiabá";"Criciúma";"23/11/2025";38
+1;3;43;"Cuiabá";"Criciúma";"23/11/2025";38
+2;3;29;"Cuiabá";"Criciúma";"23/11/2025";38
 3;3;7;"Cuiabá";"Criciúma";"23/11/2025";38
-4;3;3;"Cuiabá";"Criciúma";"23/11/2025";38
-5;3;0;"Cuiabá";"Criciúma";"23/11/2025";38
+4;3;1;"Cuiabá";"Criciúma";"23/11/2025";38
+5;3;1;"Cuiabá";"Criciúma";"23/11/2025";38
 6;3;0;"Cuiabá";"Criciúma";"23/11/2025";38
 7;3;0;"Cuiabá";"Criciúma";"23/11/2025";38
 8;3;0;"Cuiabá";"Criciúma";"23/11/2025";38
 9;3;0;"Cuiabá";"Criciúma";"23/11/2025";38
 10;3;0;"Cuiabá";"Criciúma";"23/11/2025";38
-0;4;14;"Cuiabá";"Criciúma";"23/11/2025";38
-1;4;13;"Cuiabá";"Criciúma";"23/11/2025";38
-2;4;12;"Cuiabá";"Criciúma";"23/11/2025";38
-3;4;4;"Cuiabá";"Criciúma";"23/11/2025";38
-4;4;2;"Cuiabá";"Criciúma";"23/11/2025";38
-5;4;2;"Cuiabá";"Criciúma";"23/11/2025";38
+0;4;6;"Cuiabá";"Criciúma";"23/11/2025";38
+1;4;15;"Cuiabá";"Criciúma";"23/11/2025";38
+2;4;9;"Cuiabá";"Criciúma";"23/11/2025";38
+3;4;1;"Cuiabá";"Criciúma";"23/11/2025";38
+4;4;1;"Cuiabá";"Criciúma";"23/11/2025";38
+5;4;0;"Cuiabá";"Criciúma";"23/11/2025";38
 6;4;0;"Cuiabá";"Criciúma";"23/11/2025";38
 7;4;0;"Cuiabá";"Criciúma";"23/11/2025";38
 8;4;0;"Cuiabá";"Criciúma";"23/11/2025";38
 9;4;0;"Cuiabá";"Criciúma";"23/11/2025";38
 10;4;0;"Cuiabá";"Criciúma";"23/11/2025";38
 0;5;3;"Cuiabá";"Criciúma";"23/11/2025";38
-1;5;1;"Cuiabá";"Criciúma";"23/11/2025";38
-2;5;2;"Cuiabá";"Criciúma";"23/11/2025";38
-3;5;2;"Cuiabá";"Criciúma";"23/11/2025";38
+1;5;3;"Cuiabá";"Criciúma";"23/11/2025";38
+2;5;3;"Cuiabá";"Criciúma";"23/11/2025";38
+3;5;4;"Cuiabá";"Criciúma";"23/11/2025";38
 4;5;0;"Cuiabá";"Criciúma";"23/11/2025";38
 5;5;0;"Cuiabá";"Criciúma";"23/11/2025";38
 6;5;0;"Cuiabá";"Criciúma";"23/11/2025";38
@@ -672,8 +672,8 @@
 10;5;0;"Cuiabá";"Criciúma";"23/11/2025";38
 0;6;1;"Cuiabá";"Criciúma";"23/11/2025";38
 1;6;1;"Cuiabá";"Criciúma";"23/11/2025";38
-2;6;0;"Cuiabá";"Criciúma";"23/11/2025";38
-3;6;0;"Cuiabá";"Criciúma";"23/11/2025";38
+2;6;1;"Cuiabá";"Criciúma";"23/11/2025";38
+3;6;1;"Cuiabá";"Criciúma";"23/11/2025";38
 4;6;0;"Cuiabá";"Criciúma";"23/11/2025";38
 5;6;0;"Cuiabá";"Criciúma";"23/11/2025";38
 6;6;0;"Cuiabá";"Criciúma";"23/11/2025";38
@@ -681,8 +681,8 @@
 8;6;0;"Cuiabá";"Criciúma";"23/11/2025";38
 9;6;0;"Cuiabá";"Criciúma";"23/11/2025";38
 10;6;0;"Cuiabá";"Criciúma";"23/11/2025";38
-0;7;1;"Cuiabá";"Criciúma";"23/11/2025";38
-1;7;0;"Cuiabá";"Criciúma";"23/11/2025";38
+0;7;0;"Cuiabá";"Criciúma";"23/11/2025";38
+1;7;1;"Cuiabá";"Criciúma";"23/11/2025";38
 2;7;0;"Cuiabá";"Criciúma";"23/11/2025";38
 3;7;0;"Cuiabá";"Criciúma";"23/11/2025";38
 4;7;0;"Cuiabá";"Criciúma";"23/11/2025";38
@@ -725,54 +725,54 @@
 8;10;0;"Cuiabá";"Criciúma";"23/11/2025";38
 9;10;0;"Cuiabá";"Criciúma";"23/11/2025";38
 10;10;0;"Cuiabá";"Criciúma";"23/11/2025";38
-0;0;111;"Novorizontino";"CRB";"23/11/2025";38
-1;0;143;"Novorizontino";"CRB";"23/11/2025";38
-2;0;95;"Novorizontino";"CRB";"23/11/2025";38
-3;0;40;"Novorizontino";"CRB";"23/11/2025";38
-4;0;11;"Novorizontino";"CRB";"23/11/2025";38
-5;0;1;"Novorizontino";"CRB";"23/11/2025";38
-6;0;2;"Novorizontino";"CRB";"23/11/2025";38
+0;0;94;"Novorizontino";"CRB";"23/11/2025";38
+1;0;138;"Novorizontino";"CRB";"23/11/2025";38
+2;0;79;"Novorizontino";"CRB";"23/11/2025";38
+3;0;44;"Novorizontino";"CRB";"23/11/2025";38
+4;0;17;"Novorizontino";"CRB";"23/11/2025";38
+5;0;2;"Novorizontino";"CRB";"23/11/2025";38
+6;0;0;"Novorizontino";"CRB";"23/11/2025";38
 7;0;0;"Novorizontino";"CRB";"23/11/2025";38
 8;0;0;"Novorizontino";"CRB";"23/11/2025";38
 9;0;0;"Novorizontino";"CRB";"23/11/2025";38
 10;0;0;"Novorizontino";"CRB";"23/11/2025";38
-0;1;107;"Novorizontino";"CRB";"23/11/2025";38
-1;1;119;"Novorizontino";"CRB";"23/11/2025";38
-2;1;92;"Novorizontino";"CRB";"23/11/2025";38
-3;1;34;"Novorizontino";"CRB";"23/11/2025";38
-4;1;10;"Novorizontino";"CRB";"23/11/2025";38
-5;1;2;"Novorizontino";"CRB";"23/11/2025";38
-6;1;3;"Novorizontino";"CRB";"23/11/2025";38
+0;1;104;"Novorizontino";"CRB";"23/11/2025";38
+1;1;115;"Novorizontino";"CRB";"23/11/2025";38
+2;1;77;"Novorizontino";"CRB";"23/11/2025";38
+3;1;46;"Novorizontino";"CRB";"23/11/2025";38
+4;1;11;"Novorizontino";"CRB";"23/11/2025";38
+5;1;3;"Novorizontino";"CRB";"23/11/2025";38
+6;1;1;"Novorizontino";"CRB";"23/11/2025";38
 7;1;0;"Novorizontino";"CRB";"23/11/2025";38
 8;1;0;"Novorizontino";"CRB";"23/11/2025";38
 9;1;0;"Novorizontino";"CRB";"23/11/2025";38
 10;1;0;"Novorizontino";"CRB";"23/11/2025";38
-0;2;47;"Novorizontino";"CRB";"23/11/2025";38
-1;2;53;"Novorizontino";"CRB";"23/11/2025";38
-2;2;32;"Novorizontino";"CRB";"23/11/2025";38
-3;2;20;"Novorizontino";"CRB";"23/11/2025";38
-4;2;9;"Novorizontino";"CRB";"23/11/2025";38
-5;2;0;"Novorizontino";"CRB";"23/11/2025";38
+0;2;44;"Novorizontino";"CRB";"23/11/2025";38
+1;2;70;"Novorizontino";"CRB";"23/11/2025";38
+2;2;40;"Novorizontino";"CRB";"23/11/2025";38
+3;2;24;"Novorizontino";"CRB";"23/11/2025";38
+4;2;8;"Novorizontino";"CRB";"23/11/2025";38
+5;2;1;"Novorizontino";"CRB";"23/11/2025";38
 6;2;1;"Novorizontino";"CRB";"23/11/2025";38
 7;2;0;"Novorizontino";"CRB";"23/11/2025";38
 8;2;0;"Novorizontino";"CRB";"23/11/2025";38
 9;2;0;"Novorizontino";"CRB";"23/11/2025";38
 10;2;0;"Novorizontino";"CRB";"23/11/2025";38
-0;3;13;"Novorizontino";"CRB";"23/11/2025";38
-1;3;23;"Novorizontino";"CRB";"23/11/2025";38
-2;3;10;"Novorizontino";"CRB";"23/11/2025";38
-3;3;5;"Novorizontino";"CRB";"23/11/2025";38
-4;3;1;"Novorizontino";"CRB";"23/11/2025";38
+0;3;15;"Novorizontino";"CRB";"23/11/2025";38
+1;3;18;"Novorizontino";"CRB";"23/11/2025";38
+2;3;17;"Novorizontino";"CRB";"23/11/2025";38
+3;3;6;"Novorizontino";"CRB";"23/11/2025";38
+4;3;4;"Novorizontino";"CRB";"23/11/2025";38
 5;3;1;"Novorizontino";"CRB";"23/11/2025";38
 6;3;0;"Novorizontino";"CRB";"23/11/2025";38
 7;3;0;"Novorizontino";"CRB";"23/11/2025";38
 8;3;0;"Novorizontino";"CRB";"23/11/2025";38
 9;3;0;"Novorizontino";"CRB";"23/11/2025";38
 10;3;0;"Novorizontino";"CRB";"23/11/2025";38
-0;4;4;"Novorizontino";"CRB";"23/11/2025";38
-1;4;5;"Novorizontino";"CRB";"23/11/2025";38
-2;4;2;"Novorizontino";"CRB";"23/11/2025";38
-3;4;2;"Novorizontino";"CRB";"23/11/2025";38
+0;4;5;"Novorizontino";"CRB";"23/11/2025";38
+1;4;4;"Novorizontino";"CRB";"23/11/2025";38
+2;4;3;"Novorizontino";"CRB";"23/11/2025";38
+3;4;4;"Novorizontino";"CRB";"23/11/2025";38
 4;4;0;"Novorizontino";"CRB";"23/11/2025";38
 5;4;0;"Novorizontino";"CRB";"23/11/2025";38
 6;4;0;"Novorizontino";"CRB";"23/11/2025";38
@@ -780,19 +780,19 @@
 8;4;0;"Novorizontino";"CRB";"23/11/2025";38
 9;4;0;"Novorizontino";"CRB";"23/11/2025";38
 10;4;0;"Novorizontino";"CRB";"23/11/2025";38
-0;5;1;"Novorizontino";"CRB";"23/11/2025";38
-1;5;0;"Novorizontino";"CRB";"23/11/2025";38
-2;5;0;"Novorizontino";"CRB";"23/11/2025";38
+0;5;0;"Novorizontino";"CRB";"23/11/2025";38
+1;5;1;"Novorizontino";"CRB";"23/11/2025";38
+2;5;1;"Novorizontino";"CRB";"23/11/2025";38
 3;5;0;"Novorizontino";"CRB";"23/11/2025";38
 4;5;0;"Novorizontino";"CRB";"23/11/2025";38
 5;5;0;"Novorizontino";"CRB";"23/11/2025";38
-6;5;0;"Novorizontino";"CRB";"23/11/2025";38
+6;5;1;"Novorizontino";"CRB";"23/11/2025";38
 7;5;0;"Novorizontino";"CRB";"23/11/2025";38
 8;5;0;"Novorizontino";"CRB";"23/11/2025";38
 9;5;0;"Novorizontino";"CRB";"23/11/2025";38
 10;5;0;"Novorizontino";"CRB";"23/11/2025";38
-0;6;0;"Novorizontino";"CRB";"23/11/2025";38
-1;6;1;"Novorizontino";"CRB";"23/11/2025";38
+0;6;1;"Novorizontino";"CRB";"23/11/2025";38
+1;6;0;"Novorizontino";"CRB";"23/11/2025";38
 2;6;0;"Novorizontino";"CRB";"23/11/2025";38
 3;6;0;"Novorizontino";"CRB";"23/11/2025";38
 4;6;0;"Novorizontino";"CRB";"23/11/2025";38
@@ -846,55 +846,55 @@
 8;10;0;"Novorizontino";"CRB";"23/11/2025";38
 9;10;0;"Novorizontino";"CRB";"23/11/2025";38
 10;10;0;"Novorizontino";"CRB";"23/11/2025";38
-0;0;59;"Operário-PR";"Ferroviária";"23/11/2025";38
-1;0;89;"Operário-PR";"Ferroviária";"23/11/2025";38
-2;0;63;"Operário-PR";"Ferroviária";"23/11/2025";38
-3;0;42;"Operário-PR";"Ferroviária";"23/11/2025";38
-4;0;18;"Operário-PR";"Ferroviária";"23/11/2025";38
+0;0;60;"Operário-PR";"Ferroviária";"23/11/2025";38
+1;0;102;"Operário-PR";"Ferroviária";"23/11/2025";38
+2;0;69;"Operário-PR";"Ferroviária";"23/11/2025";38
+3;0;30;"Operário-PR";"Ferroviária";"23/11/2025";38
+4;0;25;"Operário-PR";"Ferroviária";"23/11/2025";38
 5;0;9;"Operário-PR";"Ferroviária";"23/11/2025";38
-6;0;2;"Operário-PR";"Ferroviária";"23/11/2025";38
-7;0;1;"Operário-PR";"Ferroviária";"23/11/2025";38
+6;0;0;"Operário-PR";"Ferroviária";"23/11/2025";38
+7;0;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 8;0;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 9;0;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 10;0;0;"Operário-PR";"Ferroviária";"23/11/2025";38
-0;1;66;"Operário-PR";"Ferroviária";"23/11/2025";38
-1;1;121;"Operário-PR";"Ferroviária";"23/11/2025";38
-2;1;108;"Operário-PR";"Ferroviária";"23/11/2025";38
-3;1;57;"Operário-PR";"Ferroviária";"23/11/2025";38
-4;1;29;"Operário-PR";"Ferroviária";"23/11/2025";38
-5;1;8;"Operário-PR";"Ferroviária";"23/11/2025";38
-6;1;5;"Operário-PR";"Ferroviária";"23/11/2025";38
+0;1;58;"Operário-PR";"Ferroviária";"23/11/2025";38
+1;1;110;"Operário-PR";"Ferroviária";"23/11/2025";38
+2;1;107;"Operário-PR";"Ferroviária";"23/11/2025";38
+3;1;56;"Operário-PR";"Ferroviária";"23/11/2025";38
+4;1;24;"Operário-PR";"Ferroviária";"23/11/2025";38
+5;1;10;"Operário-PR";"Ferroviária";"23/11/2025";38
+6;1;2;"Operário-PR";"Ferroviária";"23/11/2025";38
 7;1;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 8;1;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 9;1;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 10;1;0;"Operário-PR";"Ferroviária";"23/11/2025";38
-0;2;32;"Operário-PR";"Ferroviária";"23/11/2025";38
-1;2;46;"Operário-PR";"Ferroviária";"23/11/2025";38
-2;2;56;"Operário-PR";"Ferroviária";"23/11/2025";38
-3;2;32;"Operário-PR";"Ferroviária";"23/11/2025";38
-4;2;11;"Operário-PR";"Ferroviária";"23/11/2025";38
-5;2;9;"Operário-PR";"Ferroviária";"23/11/2025";38
-6;2;1;"Operário-PR";"Ferroviária";"23/11/2025";38
+0;2;30;"Operário-PR";"Ferroviária";"23/11/2025";38
+1;2;72;"Operário-PR";"Ferroviária";"23/11/2025";38
+2;2;64;"Operário-PR";"Ferroviária";"23/11/2025";38
+3;2;26;"Operário-PR";"Ferroviária";"23/11/2025";38
+4;2;17;"Operário-PR";"Ferroviária";"23/11/2025";38
+5;2;0;"Operário-PR";"Ferroviária";"23/11/2025";38
+6;2;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 7;2;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 8;2;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 9;2;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 10;2;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 0;3;13;"Operário-PR";"Ferroviária";"23/11/2025";38
-1;3;32;"Operário-PR";"Ferroviária";"23/11/2025";38
-2;3;27;"Operário-PR";"Ferroviária";"23/11/2025";38
-3;3;17;"Operário-PR";"Ferroviária";"23/11/2025";38
-4;3;7;"Operário-PR";"Ferroviária";"23/11/2025";38
+1;3;25;"Operário-PR";"Ferroviária";"23/11/2025";38
+2;3;22;"Operário-PR";"Ferroviária";"23/11/2025";38
+3;3;19;"Operário-PR";"Ferroviária";"23/11/2025";38
+4;3;9;"Operário-PR";"Ferroviária";"23/11/2025";38
 5;3;1;"Operário-PR";"Ferroviária";"23/11/2025";38
 6;3;1;"Operário-PR";"Ferroviária";"23/11/2025";38
 7;3;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 8;3;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 9;3;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 10;3;0;"Operário-PR";"Ferroviária";"23/11/2025";38
-0;4;2;"Operário-PR";"Ferroviária";"23/11/2025";38
-1;4;7;"Operário-PR";"Ferroviária";"23/11/2025";38
-2;4;7;"Operário-PR";"Ferroviária";"23/11/2025";38
-3;4;3;"Operário-PR";"Ferroviária";"23/11/2025";38
-4;4;7;"Operário-PR";"Ferroviária";"23/11/2025";38
+0;4;8;"Operário-PR";"Ferroviária";"23/11/2025";38
+1;4;5;"Operário-PR";"Ferroviária";"23/11/2025";38
+2;4;4;"Operário-PR";"Ferroviária";"23/11/2025";38
+3;4;7;"Operário-PR";"Ferroviária";"23/11/2025";38
+4;4;1;"Operário-PR";"Ferroviária";"23/11/2025";38
 5;4;1;"Operário-PR";"Ferroviária";"23/11/2025";38
 6;4;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 7;4;0;"Operário-PR";"Ferroviária";"23/11/2025";38
@@ -902,20 +902,20 @@
 9;4;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 10;4;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 0;5;1;"Operário-PR";"Ferroviária";"23/11/2025";38
-1;5;2;"Operário-PR";"Ferroviária";"23/11/2025";38
-2;5;2;"Operário-PR";"Ferroviária";"23/11/2025";38
-3;5;3;"Operário-PR";"Ferroviária";"23/11/2025";38
-4;5;0;"Operário-PR";"Ferroviária";"23/11/2025";38
-5;5;1;"Operário-PR";"Ferroviária";"23/11/2025";38
-6;5;0;"Operário-PR";"Ferroviária";"23/11/2025";38
+1;5;4;"Operário-PR";"Ferroviária";"23/11/2025";38
+2;5;3;"Operário-PR";"Ferroviária";"23/11/2025";38
+3;5;1;"Operário-PR";"Ferroviária";"23/11/2025";38
+4;5;2;"Operário-PR";"Ferroviária";"23/11/2025";38
+5;5;0;"Operário-PR";"Ferroviária";"23/11/2025";38
+6;5;1;"Operário-PR";"Ferroviária";"23/11/2025";38
 7;5;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 8;5;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 9;5;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 10;5;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 0;6;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 1;6;0;"Operário-PR";"Ferroviária";"23/11/2025";38
-2;6;2;"Operário-PR";"Ferroviária";"23/11/2025";38
-3;6;0;"Operário-PR";"Ferroviária";"23/11/2025";38
+2;6;0;"Operário-PR";"Ferroviária";"23/11/2025";38
+3;6;1;"Operário-PR";"Ferroviária";"23/11/2025";38
 4;6;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 5;6;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 6;6;0;"Operário-PR";"Ferroviária";"23/11/2025";38
@@ -967,65 +967,65 @@
 8;10;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 9;10;0;"Operário-PR";"Ferroviária";"23/11/2025";38
 10;10;0;"Operário-PR";"Ferroviária";"23/11/2025";38
-0;0;87;"Remo";"Goiás";"23/11/2025";38
-1;0;114;"Remo";"Goiás";"23/11/2025";38
-2;0;105;"Remo";"Goiás";"23/11/2025";38
-3;0;37;"Remo";"Goiás";"23/11/2025";38
-4;0;19;"Remo";"Goiás";"23/11/2025";38
-5;0;3;"Remo";"Goiás";"23/11/2025";38
-6;0;0;"Remo";"Goiás";"23/11/2025";38
+0;0;88;"Remo";"Goiás";"23/11/2025";38
+1;0;120;"Remo";"Goiás";"23/11/2025";38
+2;0;85;"Remo";"Goiás";"23/11/2025";38
+3;0;44;"Remo";"Goiás";"23/11/2025";38
+4;0;15;"Remo";"Goiás";"23/11/2025";38
+5;0;4;"Remo";"Goiás";"23/11/2025";38
+6;0;3;"Remo";"Goiás";"23/11/2025";38
 7;0;0;"Remo";"Goiás";"23/11/2025";38
 8;0;0;"Remo";"Goiás";"23/11/2025";38
 9;0;0;"Remo";"Goiás";"23/11/2025";38
 10;0;0;"Remo";"Goiás";"23/11/2025";38
-0;1;86;"Remo";"Goiás";"23/11/2025";38
-1;1;120;"Remo";"Goiás";"23/11/2025";38
-2;1;78;"Remo";"Goiás";"23/11/2025";38
-3;1;48;"Remo";"Goiás";"23/11/2025";38
-4;1;18;"Remo";"Goiás";"23/11/2025";38
-5;1;7;"Remo";"Goiás";"23/11/2025";38
-6;1;0;"Remo";"Goiás";"23/11/2025";38
+0;1;80;"Remo";"Goiás";"23/11/2025";38
+1;1;128;"Remo";"Goiás";"23/11/2025";38
+2;1;89;"Remo";"Goiás";"23/11/2025";38
+3;1;40;"Remo";"Goiás";"23/11/2025";38
+4;1;21;"Remo";"Goiás";"23/11/2025";38
+5;1;8;"Remo";"Goiás";"23/11/2025";38
+6;1;1;"Remo";"Goiás";"23/11/2025";38
 7;1;0;"Remo";"Goiás";"23/11/2025";38
 8;1;0;"Remo";"Goiás";"23/11/2025";38
 9;1;0;"Remo";"Goiás";"23/11/2025";38
 10;1;0;"Remo";"Goiás";"23/11/2025";38
-0;2;50;"Remo";"Goiás";"23/11/2025";38
-1;2;55;"Remo";"Goiás";"23/11/2025";38
-2;2;61;"Remo";"Goiás";"23/11/2025";38
-3;2;19;"Remo";"Goiás";"23/11/2025";38
-4;2;11;"Remo";"Goiás";"23/11/2025";38
-5;2;1;"Remo";"Goiás";"23/11/2025";38
+0;2;44;"Remo";"Goiás";"23/11/2025";38
+1;2;73;"Remo";"Goiás";"23/11/2025";38
+2;2;43;"Remo";"Goiás";"23/11/2025";38
+3;2;22;"Remo";"Goiás";"23/11/2025";38
+4;2;10;"Remo";"Goiás";"23/11/2025";38
+5;2;2;"Remo";"Goiás";"23/11/2025";38
 6;2;0;"Remo";"Goiás";"23/11/2025";38
-7;2;1;"Remo";"Goiás";"23/11/2025";38
+7;2;0;"Remo";"Goiás";"23/11/2025";38
 8;2;0;"Remo";"Goiás";"23/11/2025";38
 9;2;0;"Remo";"Goiás";"23/11/2025";38
 10;2;0;"Remo";"Goiás";"23/11/2025";38
-0;3;12;"Remo";"Goiás";"23/11/2025";38
-1;3;23;"Remo";"Goiás";"23/11/2025";38
-2;3;11;"Remo";"Goiás";"23/11/2025";38
-3;3;10;"Remo";"Goiás";"23/11/2025";38
-4;3;2;"Remo";"Goiás";"23/11/2025";38
-5;3;0;"Remo";"Goiás";"23/11/2025";38
+0;3;20;"Remo";"Goiás";"23/11/2025";38
+1;3;15;"Remo";"Goiás";"23/11/2025";38
+2;3;16;"Remo";"Goiás";"23/11/2025";38
+3;3;7;"Remo";"Goiás";"23/11/2025";38
+4;3;3;"Remo";"Goiás";"23/11/2025";38
+5;3;3;"Remo";"Goiás";"23/11/2025";38
 6;3;0;"Remo";"Goiás";"23/11/2025";38
 7;3;0;"Remo";"Goiás";"23/11/2025";38
 8;3;0;"Remo";"Goiás";"23/11/2025";38
 9;3;0;"Remo";"Goiás";"23/11/2025";38
 10;3;0;"Remo";"Goiás";"23/11/2025";38
-0;4;5;"Remo";"Goiás";"23/11/2025";38
+0;4;3;"Remo";"Goiás";"23/11/2025";38
 1;4;3;"Remo";"Goiás";"23/11/2025";38
-2;4;5;"Remo";"Goiás";"23/11/2025";38
-3;4;3;"Remo";"Goiás";"23/11/2025";38
-4;4;2;"Remo";"Goiás";"23/11/2025";38
-5;4;0;"Remo";"Goiás";"23/11/2025";38
+2;4;4;"Remo";"Goiás";"23/11/2025";38
+3;4;1;"Remo";"Goiás";"23/11/2025";38
+4;4;0;"Remo";"Goiás";"23/11/2025";38
+5;4;2;"Remo";"Goiás";"23/11/2025";38
 6;4;0;"Remo";"Goiás";"23/11/2025";38
-7;4;0;"Remo";"Goiás";"23/11/2025";38
+7;4;1;"Remo";"Goiás";"23/11/2025";38
 8;4;0;"Remo";"Goiás";"23/11/2025";38
 9;4;0;"Remo";"Goiás";"23/11/2025";38
 10;4;0;"Remo";"Goiás";"23/11/2025";38
-0;5;2;"Remo";"Goiás";"23/11/2025";38
-1;5;0;"Remo";"Goiás";"23/11/2025";38
-2;5;1;"Remo";"Goiás";"23/11/2025";38
-3;5;0;"Remo";"Goiás";"23/11/2025";38
+0;5;0;"Remo";"Goiás";"23/11/2025";38
+1;5;1;"Remo";"Goiás";"23/11/2025";38
+2;5;0;"Remo";"Goiás";"23/11/2025";38
+3;5;1;"Remo";"Goiás";"23/11/2025";38
 4;5;0;"Remo";"Goiás";"23/11/2025";38
 5;5;0;"Remo";"Goiás";"23/11/2025";38
 6;5;0;"Remo";"Goiás";"23/11/2025";38
@@ -1035,7 +1035,7 @@
 10;5;0;"Remo";"Goiás";"23/11/2025";38
 0;6;0;"Remo";"Goiás";"23/11/2025";38
 1;6;0;"Remo";"Goiás";"23/11/2025";38
-2;6;1;"Remo";"Goiás";"23/11/2025";38
+2;6;0;"Remo";"Goiás";"23/11/2025";38
 3;6;0;"Remo";"Goiás";"23/11/2025";38
 4;6;0;"Remo";"Goiás";"23/11/2025";38
 5;6;0;"Remo";"Goiás";"23/11/2025";38
@@ -1088,55 +1088,55 @@
 8;10;0;"Remo";"Goiás";"23/11/2025";38
 9;10;0;"Remo";"Goiás";"23/11/2025";38
 10;10;0;"Remo";"Goiás";"23/11/2025";38
-0;0;140;"Vila Nova";"Volta Redonda";"23/11/2025";38
-1;0;163;"Vila Nova";"Volta Redonda";"23/11/2025";38
-2;0;113;"Vila Nova";"Volta Redonda";"23/11/2025";38
-3;0;53;"Vila Nova";"Volta Redonda";"23/11/2025";38
-4;0;24;"Vila Nova";"Volta Redonda";"23/11/2025";38
-5;0;7;"Vila Nova";"Volta Redonda";"23/11/2025";38
+0;0;116;"Vila Nova";"Volta Redonda";"23/11/2025";38
+1;0;191;"Vila Nova";"Volta Redonda";"23/11/2025";38
+2;0;132;"Vila Nova";"Volta Redonda";"23/11/2025";38
+3;0;56;"Vila Nova";"Volta Redonda";"23/11/2025";38
+4;0;13;"Vila Nova";"Volta Redonda";"23/11/2025";38
+5;0;3;"Vila Nova";"Volta Redonda";"23/11/2025";38
 6;0;1;"Vila Nova";"Volta Redonda";"23/11/2025";38
 7;0;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 8;0;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 9;0;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 10;0;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
-0;1;76;"Vila Nova";"Volta Redonda";"23/11/2025";38
-1;1;126;"Vila Nova";"Volta Redonda";"23/11/2025";38
-2;1;89;"Vila Nova";"Volta Redonda";"23/11/2025";38
-3;1;46;"Vila Nova";"Volta Redonda";"23/11/2025";38
-4;1;13;"Vila Nova";"Volta Redonda";"23/11/2025";38
-5;1;2;"Vila Nova";"Volta Redonda";"23/11/2025";38
+0;1;85;"Vila Nova";"Volta Redonda";"23/11/2025";38
+1;1;116;"Vila Nova";"Volta Redonda";"23/11/2025";38
+2;1;75;"Vila Nova";"Volta Redonda";"23/11/2025";38
+3;1;51;"Vila Nova";"Volta Redonda";"23/11/2025";38
+4;1;11;"Vila Nova";"Volta Redonda";"23/11/2025";38
+5;1;4;"Vila Nova";"Volta Redonda";"23/11/2025";38
 6;1;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
-7;1;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
+7;1;1;"Vila Nova";"Volta Redonda";"23/11/2025";38
 8;1;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 9;1;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 10;1;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
-0;2;32;"Vila Nova";"Volta Redonda";"23/11/2025";38
-1;2;33;"Vila Nova";"Volta Redonda";"23/11/2025";38
-2;2;33;"Vila Nova";"Volta Redonda";"23/11/2025";38
-3;2;18;"Vila Nova";"Volta Redonda";"23/11/2025";38
+0;2;25;"Vila Nova";"Volta Redonda";"23/11/2025";38
+1;2;39;"Vila Nova";"Volta Redonda";"23/11/2025";38
+2;2;32;"Vila Nova";"Volta Redonda";"23/11/2025";38
+3;2;11;"Vila Nova";"Volta Redonda";"23/11/2025";38
 4;2;5;"Vila Nova";"Volta Redonda";"23/11/2025";38
-5;2;2;"Vila Nova";"Volta Redonda";"23/11/2025";38
-6;2;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
+5;2;1;"Vila Nova";"Volta Redonda";"23/11/2025";38
+6;2;1;"Vila Nova";"Volta Redonda";"23/11/2025";38
 7;2;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 8;2;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 9;2;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 10;2;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
-0;3;4;"Vila Nova";"Volta Redonda";"23/11/2025";38
+0;3;7;"Vila Nova";"Volta Redonda";"23/11/2025";38
 1;3;10;"Vila Nova";"Volta Redonda";"23/11/2025";38
-2;3;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
-3;3;5;"Vila Nova";"Volta Redonda";"23/11/2025";38
-4;3;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
+2;3;8;"Vila Nova";"Volta Redonda";"23/11/2025";38
+3;3;3;"Vila Nova";"Volta Redonda";"23/11/2025";38
+4;3;1;"Vila Nova";"Volta Redonda";"23/11/2025";38
 5;3;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 6;3;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 7;3;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 8;3;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 9;3;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 10;3;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
-0;4;1;"Vila Nova";"Volta Redonda";"23/11/2025";38
+0;4;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 1;4;1;"Vila Nova";"Volta Redonda";"23/11/2025";38
-2;4;2;"Vila Nova";"Volta Redonda";"23/11/2025";38
+2;4;1;"Vila Nova";"Volta Redonda";"23/11/2025";38
 3;4;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
-4;4;1;"Vila Nova";"Volta Redonda";"23/11/2025";38
+4;4;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 5;4;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 6;4;0;"Vila Nova";"Volta Redonda";"23/11/2025";38
 7;4;0;"Vila Nova";"Volta Redonda";"23/11/2025";38

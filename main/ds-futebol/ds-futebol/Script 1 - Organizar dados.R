@@ -1,4 +1,5 @@
-library(tidyverse)
+library(dplyr)
+library(stringr)
 
 # Apenas um arquivo
 arquivo <- "Resultados.csv"
