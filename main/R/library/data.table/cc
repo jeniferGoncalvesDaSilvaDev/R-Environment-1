@@ -1,0 +1,2 @@
+CC=/nix/store/r9wbjib6xxjkyb9yvjvrkl4sq61i2lyn-gcc-wrapper-15.2.0/bin/cc
+CFLAGS=-g -O2

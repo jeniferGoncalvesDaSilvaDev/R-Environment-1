@@ -1,0 +1,1 @@
+- [R package installation](r-package-installation.md) — the global R library is read-only; verify project-local packages through `.libPaths()` before claiming success.
