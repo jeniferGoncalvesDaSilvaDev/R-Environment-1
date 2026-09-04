@@ -32,6 +32,21 @@ No Shell, a partir da pasta principal do projeto:
 ./main/run.sh
 ```
 
+### Windows PowerShell
+
+No PowerShell, adicione o R ao `PATH` da sessão e confirme a instalação:
+
+```powershell
+$env:Path += ";C:\Program Files\R\R-4.6.1\bin"
+Rscript --version
+```
+
+Depois, execute a automação:
+
+```powershell
+Rscript main/main.R
+```
+
 Também é possível executar diretamente:
 
 ```bash

@@ -1,0 +1,17 @@
+Resultados das simulações
+=========================
+
+Automação executada com sucesso.
+
+- 370 partidas históricas
+- 10 partidas pendentes
+- 1.000 simulações
+- 9 arquivos gerados
+
+Top 5:
+
+1. Athletico Paranaense — título: 59,8%; acesso: 100%
+2. Coritiba — título: 40,2%; acesso: 100%
+3. Criciúma — acesso: 75,0%
+4. Chapecoense — acesso: 57,4%
+5. Remo — acesso: 45,1%
