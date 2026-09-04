@@ -1,3 +1,6 @@
+source("config.R")
+set.seed(semente)
+
 suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(tidyr))
 suppressPackageStartupMessages(library(purrr))
@@ -171,7 +174,6 @@ write.csv2(tabela_total, file = "Tabela atual.csv", fileEncoding = "latin1")
 
 # Cálculo dos campeonatos fictícios e dos objetos necessários para previsão
 previsoes <- partidas_faltantes_com_fatores_de_ataque_e_defesa
-numero_de_campeonatos_ficticios <- 10^3
 colunas_de_NAs <- matrix(NA, nrow = nrow(previsoes), ncol = numero_de_campeonatos_ficticios)
 colnames(colunas_de_NAs) <- paste0("campeonato_", seq_len(numero_de_campeonatos_ficticios))
 previsao_de_gols_do_mandante <- cbind(previsoes, colunas_de_NAs)

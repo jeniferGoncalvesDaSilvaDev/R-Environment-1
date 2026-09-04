@@ -1,10 +1,10 @@
+source("config.R")
+
 suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(stringr))
 
 # Apenas um arquivo
 arquivo <- "Resultados.csv"
-liga <- "Brasileirão"
-ano <- 2025
 
 # Ler os dados
 dados <- read.csv2(arquivo, fileEncoding = "latin1", check.names = FALSE)
