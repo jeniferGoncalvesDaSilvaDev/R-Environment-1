@@ -14,3 +14,9 @@ The football analysis scripts use the tidyverse components directly (`dplyr`, `s
 **Why:** The aggregate package could not be made visible to the active R 4.5 runtime, while all required components were installed and verified.
 
 **How to apply:** For these scripts, keep component imports and use `suppressPackageStartupMessages()` to avoid normal attach/masking messages while preserving real warnings and errors.
+
+For future automation suggestions in this project, assume the data sets are small.
+
+**Why:** The user wants solutions sized to small data volumes rather than heavyweight data infrastructure.
+
+**How to apply:** Prefer simple R scripts, local CSV/RDS files, straightforward validation, and readable sequential workflows; only suggest databases, parallel processing, or external services when a concrete need appears.
