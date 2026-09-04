@@ -41,55 +41,61 @@ integrado do VS Code.
 
 No VS Code, abra **Terminal > Novo Terminal** ou pressione `Ctrl + ``.
 
-#### 2. Entre na pasta principal do projeto
+#### 2. Entre na pasta `main`
 
-Copie e cole o comando abaixo. Ele garante que os próximos comandos sejam
-executados no projeto correto:
+Abra o terminal na pasta raiz do repositório clonado. Não use um caminho
+absoluto: o nome da unidade e a pasta do projeto podem ser diferentes em cada
+computador.
 
 ```powershell
-cd "C:\Users\LENOVO\Downloads\R-Environment-1-main\R-Environment-1-main"
+cd ".\main"
 ```
 
-#### 3. Configure o caminho do R
+Se o terminal já estiver dentro da pasta `main`, não execute o `cd` novamente.
 
-Este comando adiciona o R ao `PATH` somente nesta sessão do PowerShell:
+#### 3. Verifique o R
 
-```powershell
-$env:Path += ";C:\Program Files\R\R-4.6.1\bin"
-```
-
-O caminho acima corresponde ao R 4.6.1 instalado no Windows. Se você tiver
-outra versão, ajuste o número da pasta, por exemplo `R-4.5.0`.
-
-#### 4. Configure a biblioteca de pacotes
-
-O projeto usa pacotes instalados na biblioteca do usuário:
+O Windows normalmente adiciona o R ao `PATH`. Confira com:
 
 ```powershell
-$env:R_LIBS_USER = "$env:LOCALAPPDATA\R\win-library\4.6"
-```
-
-Se os pacotes ainda não estiverem instalados, execute uma vez:
-
-```powershell
-Rscript -e "install.packages(c('dplyr','stringr','tidyr','purrr','data.table'), repos='https://cloud.r-project.org')"
-```
-
-#### 5. Confirme que o R está funcionando
-
-```powershell
+Get-Command Rscript
 Rscript --version
 ```
 
-O terminal deve mostrar a versão do `Rscript`, por exemplo `Rscript (R)
-version 4.6.1`.
+Se `Rscript` não for encontrado, instale o R pelo site oficial:
+[CRAN](https://cran.r-project.org/bin/windows/base/). Depois, feche e abra o
+terminal novamente.
 
-#### 6. Execute a automação completa (recomendado)
+#### 4. Configure o caminho do R somente se necessário
 
-Este é o comando recomendado. Ele executa os três scripts na ordem correta:
+Use este comando apenas quando `Rscript --version` não funcionar. Ele procura
+automaticamente instalações do R nas pastas padrão do Windows, sem depender da
+versão instalada ou do nome do usuário:
 
 ```powershell
-Rscript "main\main.R"
+$rCandidates = @(
+    (Get-ChildItem "$env:ProgramFiles\R\*\bin\Rscript.exe" -ErrorAction SilentlyContinue),
+    (Get-ChildItem "${env:ProgramFiles(x86)}\R\*\bin\Rscript.exe" -ErrorAction SilentlyContinue),
+    (Get-ChildItem "$env:LOCALAPPDATA\Programs\R\*\bin\Rscript.exe" -ErrorAction SilentlyContinue)
+) | Where-Object { $null -ne $_ } | Sort-Object FullName -Descending
+
+if ($rCandidates.Count -eq 0) {
+    Write-Error "R não encontrado. Instale-o pelo site https://cran.r-project.org/"
+} else {
+    $env:Path += ";" + $rCandidates[0].Directory.FullName
+}
+
+Rscript --version
+```
+
+#### 5. Execute a automação completa (recomendado)
+
+Este arquivo encontra o `Rscript` automaticamente, instala os pacotes ausentes
+na biblioteca do usuário e executa os três scripts na ordem correta:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\executar-automacao.ps1
 ```
 
 A automação:
@@ -106,41 +112,35 @@ Ao final, o terminal também exibe as previsões detalhadas de cada partida
 pendente, incluindo o placar esperado e as probabilidades de vitória, empate e
 derrota. Em seguida, mostra o top 10 da classificação projetada.
 
-#### 7. Execute somente o script de previsões
+#### 6. Execute somente o script de previsões
 
 O arquivo `Script 3 - Previsões.R` depende de `config.R` e, por isso, deve ser
 executado a partir da pasta `main\ds-futebol\ds-futebol`:
 
 ```powershell
-cd "main\ds-futebol\ds-futebol"
+Push-Location ".\ds-futebol\ds-futebol"
 Rscript ".\Script 3 - Previsões.R"
+Pop-Location
 ```
 
-Se você estiver na pasta do projeto depois de executar esse script, retorne à
-pasta principal com:
-
-```powershell
-cd "..\.."
-```
-
-#### 8. Execute uma versão rápida para teste
+#### 7. Execute uma versão rápida para teste
 
 Para testar rapidamente usando apenas 100 simulações:
 
 ```powershell
-Rscript "main\main.R" --teste
+.\executar-automacao.ps1 --teste
 ```
 
 Para escolher outra quantidade de simulações:
 
 ```powershell
-Rscript "main\main.R" --simulacoes 5000
+.\executar-automacao.ps1 --simulacoes 5000
 ```
 
 Os comandos `--teste` e `--simulacoes` exibem a mesma saída detalhada no
 terminal; somente a quantidade de simulações muda.
 
-#### 9. Localize os resultados
+#### 8. Localize os resultados
 
 Os resultados ficam nesta pasta:
 
