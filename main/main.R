@@ -9,13 +9,19 @@ if (length(file_arg) == 0) {
 main_file <- normalizePath(sub("^--file=", "", file_arg[[1]]))
 main_dir <- dirname(main_file)
 project_dir <- file.path(main_dir, "ds-futebol", "ds-futebol")
+presentation_file <- file.path(main_dir, "mostrar-previsoes.R")
 
 if (!dir.exists(project_dir)) {
   stop("Pasta do projeto não encontrada: ", project_dir)
 }
 
+if (!file.exists(presentation_file)) {
+  stop("Arquivo de apresentação das previsões não encontrado: ", presentation_file)
+}
+
 setwd(project_dir)
 source("config.R")
+source(presentation_file)
 
 if ("--teste" %in% args) {
   numero_de_campeonatos_ficticios <- 100L
@@ -176,3 +182,4 @@ cat("\nAutomação concluída com sucesso.\n")
 cat("Resultados desta execução: ", snapshot_dir, "\n", sep = "")
 cat("Log: ", log_file, "\n", sep = "")
 cat("Resumo: ", summary_file, "\n", sep = "")
+mostrar_previsoes(project_dir)

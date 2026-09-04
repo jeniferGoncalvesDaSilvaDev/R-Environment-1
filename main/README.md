@@ -102,6 +102,10 @@ A automação:
 6. Gera as probabilidades;
 7. Salva um log, um resumo e uma cópia datada dos resultados.
 
+Ao final, o terminal também exibe as previsões detalhadas de cada partida
+pendente, incluindo o placar esperado e as probabilidades de vitória, empate e
+derrota. Em seguida, mostra o top 10 da classificação projetada.
+
 #### 7. Execute somente o script de previsões
 
 O arquivo `Script 3 - Previsões.R` depende de `config.R` e, por isso, deve ser
@@ -132,6 +136,9 @@ Para escolher outra quantidade de simulações:
 ```powershell
 Rscript "main\main.R" --simulacoes 5000
 ```
+
+Os comandos `--teste` e `--simulacoes` exibem a mesma saída detalhada no
+terminal; somente a quantidade de simulações muda.
 
 #### 9. Localize os resultados
 
