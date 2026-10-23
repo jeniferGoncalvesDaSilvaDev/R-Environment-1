@@ -66,15 +66,16 @@ mostrar_previsoes <- function(project_dir) {
     )
   }
 
+  coluna_top4 <- if ("G4" %in% names(probabilidades)) "G4" else "Acesso"
   melhores <- probabilidades[
-    order(-probabilidades$Titulo, -probabilidades$Acesso),
-    c("Time", "Titulo", "Acesso", "Rebaixamento")
+    order(-probabilidades$Titulo, -probabilidades[[coluna_top4]]),
+    c("Time", "Titulo", coluna_top4, "Rebaixamento")
   ]
 
   cat("\n============================================================\n")
   cat("CLASSIFICAÇÃO PROJETADA — TOP 10\n")
   cat("============================================================\n")
-  cat("Time                         Título    Acesso    Rebaixamento\n")
+  cat(sprintf("Time                         Título    %-10s Rebaixamento\n", coluna_top4))
 
   for (indice in seq_len(min(10L, nrow(melhores)))) {
     time <- melhores[indice, ]
@@ -83,7 +84,7 @@ mostrar_previsoes <- function(project_dir) {
         "%-28s %8s %9s %14s\n",
         substr(time$Time, 1L, 28L),
         formatar_percentual(time$Titulo),
-        formatar_percentual(time$Acesso),
+        formatar_percentual(time[[coluna_top4]]),
         formatar_percentual(time$Rebaixamento)
       )
     )

@@ -1,4 +1,4 @@
-# Automação de análise da Série B
+# Automação e simulação de campeonatos brasileiros
 
 Projeto em R para organizar resultados, calcular um modelo estatístico de gols
 e simular os possíveis resultados das partidas restantes do campeonato.
@@ -6,12 +6,41 @@ e simular os possíveis resultados das partidas restantes do campeonato.
 O projeto foi pensado para pequenos conjuntos de dados, usando arquivos locais
 e uma execução simples pelo Shell do Replit.
 
+## Como o modelo funciona
+
+O modelo usa os placares já realizados para estimar, para cada equipe, uma
+força de ataque e uma força de defesa. Ele também estima a vantagem de jogar em
+casa por meio de uma regressão de Poisson:
+
+1. Para cada partida, combina o ataque de uma equipe com a defesa do adversário.
+2. Acrescenta o efeito de mando de campo para estimar os gols esperados do
+   mandante. Para o visitante, não acrescenta esse efeito.
+3. Sorteia placares possíveis de acordo com essas médias e repete o processo
+   para a quantidade de campeonatos simulados.
+4. Em cada campeonato simulado, soma os resultados já disputados e os
+   simulados, ordenando os times por pontos, vitórias, saldo de gols e gols
+   marcados.
+5. Calcula as probabilidades contando em quantas simulações cada resultado ou
+   posição aconteceu.
+
+As partidas futuras são simuladas com placares aleatórios segundo as médias
+estimadas. Por isso, as probabilidades são estimativas estatísticas: não são
+previsões certas nem garantias.
+
 ## Estrutura
 
 ```text
 main/
 ├── README.md
 ├── main.R
+├── executar-automacao.ps1
+├── mostrar-previsoes.R
+├── serie-a-2026/
+│   ├── config.R
+│   ├── FONTE.txt
+│   ├── Resultados.csv
+│   ├── Partidas que faltam.csv
+│   └── calendario-ogol-2026.csv
 ├── run.sh
 └── ds-futebol/
     └── ds-futebol/
@@ -32,124 +61,142 @@ No Shell, a partir da pasta principal do projeto:
 ./main/run.sh
 ```
 
-### Windows PowerShell — passo a passo
+### Windows PowerShell
 
-Use esta seção se estiver executando o projeto pelo PowerShell ou pelo terminal
-integrado do VS Code.
+Os comandos não dependem do nome de usuário, da unidade ou da pasta onde o
+repositório foi clonado. Abra o terminal na raiz do repositório.
 
-#### 1. Abra o PowerShell
-
-No VS Code, abra **Terminal > Novo Terminal** ou pressione `Ctrl + ``.
-
-#### 2. Entre na pasta `main`
-
-Abra o terminal na pasta raiz do repositório clonado. Não use um caminho
-absoluto: o nome da unidade e a pasta do projeto podem ser diferentes em cada
-computador.
+#### 1. Entre na pasta `main`
 
 ```powershell
 cd ".\main"
 ```
 
-Se o terminal já estiver dentro da pasta `main`, não execute o `cd` novamente.
-
-#### 3. Verifique o R
-
-O Windows normalmente adiciona o R ao `PATH`. Confira com:
-
-```powershell
-Get-Command Rscript
-Rscript --version
-```
-
-Se `Rscript` não for encontrado, instale o R pelo site oficial:
-[CRAN](https://cran.r-project.org/bin/windows/base/). Depois, feche e abra o
-terminal novamente.
-
-#### 4. Configure o caminho do R somente se necessário
-
-Use este comando apenas quando `Rscript --version` não funcionar. Ele procura
-automaticamente instalações do R nas pastas padrão do Windows, sem depender da
-versão instalada ou do nome do usuário:
-
-```powershell
-$rCandidates = @(
-    (Get-ChildItem "$env:ProgramFiles\R\*\bin\Rscript.exe" -ErrorAction SilentlyContinue),
-    (Get-ChildItem "${env:ProgramFiles(x86)}\R\*\bin\Rscript.exe" -ErrorAction SilentlyContinue),
-    (Get-ChildItem "$env:LOCALAPPDATA\Programs\R\*\bin\Rscript.exe" -ErrorAction SilentlyContinue)
-) | Where-Object { $null -ne $_ } | Sort-Object FullName -Descending
-
-if ($rCandidates.Count -eq 0) {
-    Write-Error "R não encontrado. Instale-o pelo site https://cran.r-project.org/"
-} else {
-    $env:Path += ";" + $rCandidates[0].Directory.FullName
-}
-
-Rscript --version
-```
-
-#### 5. Execute a automação completa (recomendado)
-
-Este arquivo encontra o `Rscript` automaticamente, instala os pacotes ausentes
-na biblioteca do usuário e executa os três scripts na ordem correta:
+#### 2. Execute a Série B 2025
 
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.\executar-automacao.ps1
-```
-
-A automação:
-
-1. Entra automaticamente na pasta do projeto;
-2. Valida os arquivos de entrada;
-3. Organiza os resultados históricos;
-4. Calcula os coeficientes do modelo;
-5. Simula as partidas restantes;
-6. Gera as probabilidades;
-7. Salva um log, um resumo e uma cópia datada dos resultados.
-
-Ao final, o terminal também exibe as previsões detalhadas de cada partida
-pendente, incluindo o placar esperado e as probabilidades de vitória, empate e
-derrota. Em seguida, mostra o top 10 da classificação projetada.
-
-#### 6. Execute somente o script de previsões
-
-O arquivo `Script 3 - Previsões.R` depende de `config.R` e, por isso, deve ser
-executado a partir da pasta `main\ds-futebol\ds-futebol`:
-
-```powershell
-Push-Location ".\ds-futebol\ds-futebol"
-Rscript ".\Script 3 - Previsões.R"
-Pop-Location
-```
-
-#### 7. Execute uma versão rápida para teste
-
-Para testar rapidamente usando apenas 100 simulações:
-
-```powershell
 .\executar-automacao.ps1 --teste
 ```
 
-Para escolher outra quantidade de simulações:
+Para usar 5.000 simulações, por exemplo:
 
 ```powershell
 .\executar-automacao.ps1 --simulacoes 5000
 ```
 
-Os comandos `--teste` e `--simulacoes` exibem a mesma saída detalhada no
-terminal; somente a quantidade de simulações muda.
+#### 3. Execute a Série A 2026
 
-#### 8. Localize os resultados
+Este conjunto é separado dos dados da Série B:
 
-Os resultados ficam nesta pasta:
+```powershell
+.\executar-automacao.ps1 --projeto "serie-a-2026" --simulacoes 5000
+```
+
+`--teste` sempre usa 100 simulações. Se preferir, também pode rodar a Série A
+no modo rápido:
+
+```powershell
+.\executar-automacao.ps1 --projeto "serie-a-2026" --teste
+```
+
+O script PowerShell localiza o R, instala pacotes necessários que estiverem
+faltando e preserva a pasta atual do terminal. O computador precisa ter R
+instalado e acesso à internet para a instalação inicial dos pacotes.
+
+### macOS e Linux
+
+Instale o R para seu sistema operacional e confirme que `Rscript` está
+disponível no terminal:
+
+```sh
+Rscript --version
+```
+
+Se os pacotes ainda não estiverem instalados, instale-os uma vez:
+
+```sh
+Rscript -e 'install.packages(c("dplyr", "stringr", "tidyr", "purrr", "data.table"), repos="https://cloud.r-project.org")'
+```
+
+Na raiz do repositório, entre em `main` e execute a Série A:
+
+```sh
+cd ./main
+Rscript main.R --projeto "serie-a-2026" --simulacoes 5000
+```
+
+Para executar 100 simulações:
+
+```sh
+Rscript main.R --projeto "serie-a-2026" --teste
+```
+
+Para executar a Série B padrão, omita `--projeto`:
+
+```sh
+Rscript main.R --teste
+```
+
+Os comandos acima usam caminhos relativos ao repositório; não é necessário
+editar caminhos com nome de usuário, unidade ou versão específica do R.
+
+### Como ler a saída no terminal
+
+Ao final da execução, o terminal apresenta as previsões detalhadas das partidas
+pendentes. Para cada jogo, mostra a rodada, os times, o placar estimado e as
+probabilidades de vitória do mandante, empate e vitória do visitante. Essas
+probabilidades são calculadas a partir da frequência de cada resultado nas
+simulações.
+
+O “placar esperado” é uma estimativa de gols produzida pelas médias do modelo;
+não é um placar confirmado nem necessariamente o resultado mais provável.
+Depois das partidas, aparece a classificação projetada dos dez primeiros:
+
+- **Título:** proporção de simulações em que o time terminou em 1º lugar;
+- **G4:** proporção de simulações em que terminou entre os quatro primeiros;
+- **Rebaixamento:** proporção de simulações em que terminou entre o 17º e o
+  20º lugar.
+
+Por exemplo, `Título: 20%` significa que o time foi campeão em 20% das
+simulações executadas. Para a Série B, a coluna correspondente ao G4 é
+apresentada como **Acesso**.
+
+### Fonte e ressalva dos dados — Brasileirão Série A 2026
+
+Fontes consultadas em 23/10/2026:
+
+- [Estatísticas da edição no oGol](https://www.ogol.com.br/edicao/brasileirao-serie-a-2026/210277/estatisticas)
+- [Calendário da edição no oGol](https://www.ogol.com.br/edicao/brasileirao-serie-a-2026/210277/calendario)
+
+Foram coletados 360 jogos publicados no calendário: 309 com placar e 51 sem
+resultado final. O total de 309 jogos foi conferido com o resumo de estatísticas
+da página. As partidas sem resultado permanecem como pendentes.
+
+Na data da consulta, o calendário não listava as rodadas 35 e 38. Para completar
+os 380 jogos previstos para 20 equipes em turno e returno, os 10 confrontos da
+rodada 35 foram inferidos como o returno invertido da rodada 16; os 10 da
+rodada 38 foram inferidos como o returno invertido da rodada 19. O padrão foi
+conferido nas demais rodadas de ida e volta disponíveis. As datas desses 20
+jogos aparecem como “A definir”. Esses confrontos são inferências, não jogos
+publicados pelo oGol.
+
+Os resultados e as previsões são estimativas estatísticas, não garantias.
+Consulte `serie-a-2026/FONTE.txt` e `serie-a-2026/calendario-ogol-2026.csv`
+para a origem e a marcação de cada partida.
+
+### Onde ficam os resultados
+
+Os arquivos gerados ficam na pasta `resultados` do conjunto executado:
 
 ```text
+main\serie-a-2026\resultados\
 main\ds-futebol\ds-futebol\resultados\
 ```
 
 Cada execução cria uma pasta com data e hora, além de um arquivo de log e um
-resumo.
+resumo. A pasta da execução contém, entre outros arquivos, os placares
+esperados, as probabilidades por partida e a classificação final simulada.
 
 O programa:
 
@@ -161,28 +208,13 @@ O programa:
 6. Gera as probabilidades;
 7. Salva um log, um resumo e uma cópia datada dos resultados.
 
-## Modo de teste
-
-Para testar a automação rapidamente usando apenas 100 simulações:
-
-```bash
-Rscript main/main.R --teste
-```
-
-Para escolher a quantidade de simulações:
-
-```bash
-Rscript main/main.R --simulacoes 5000
-```
-
-O modo normal utiliza a quantidade definida em `config.R`.
-
 ## Configuração
 
-As principais configurações ficam em:
+As configurações ficam separadas por conjunto de dados:
 
 ```text
 main/ds-futebol/ds-futebol/config.R
+main/serie-a-2026/config.R
 ```
 
 Exemplo:
@@ -264,7 +296,7 @@ Usa os coeficientes para simular os campeonatos possíveis e gera:
 - tabela atual;
 - probabilidade de cada posição;
 - probabilidade de título;
-- probabilidade de acesso;
+- probabilidade de G4 (Série A) ou acesso (Série B);
 - probabilidade de rebaixamento;
 - probabilidade de cada pontuação;
 - frequência dos possíveis placares.
@@ -274,8 +306,11 @@ Usa os coeficientes para simular os campeonatos possíveis e gera:
 Cada execução cria uma pasta datada em:
 
 ```text
-main/ds-futebol/ds-futebol/resultados/
+main/<conjunto-de-dados>/resultados/
 ```
+
+Por exemplo, a Série A grava em `main/serie-a-2026/resultados/` e a Série B
+em `main/ds-futebol/ds-futebol/resultados/`.
 
 Exemplo:
 
@@ -297,7 +332,7 @@ O resumo contém:
 - quantidade de partidas pendentes;
 - quantidade de simulações;
 - arquivos gerados;
-- cinco times com maiores probabilidades de título e acesso.
+- cinco times com maiores probabilidades de título e G4/acesso.
 
 ## Pacotes utilizados
 
@@ -316,7 +351,10 @@ compatível com o ambiente R do Replit.
 
 ## Observações
 
-- Execute os comandos a partir da pasta principal do projeto.
+- Os comandos de execução usam caminhos relativos; não precisam de caminhos
+  absolutos com usuário, unidade ou versão específica do R.
+- No Windows, use `executar-automacao.ps1`; no macOS/Linux, use `Rscript main.R`
+  conforme os exemplos acima.
 - Não renomeie as colunas exigidas dos arquivos CSV.
 - Para testes rápidos, use `--teste`.
 - Para resultados mais estáveis, aumente o número de simulações.

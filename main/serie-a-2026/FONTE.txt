@@ -1,0 +1,20 @@
+Fonte e critérios dos dados — Brasileirão Série A 2026
+
+Fonte consultada em 23/10/2026:
+https://www.ogol.com.br/edicao/brasileirao-serie-a-2026/210277/estatisticas
+Calendário da mesma edição:
+https://www.ogol.com.br/edicao/brasileirao-serie-a-2026/210277/calendario
+
+Foram coletados 360 jogos publicados no calendário: 309 com placar e 51 sem
+resultado final. O total de 309 jogos foi conferido com o resumo de estatísticas
+da página. As partidas sem resultado permanecem como pendentes.
+
+O calendário consultado ainda não listava as rodadas 35 e 38. Para que a
+simulação cubra os 380 jogos previstos para 20 equipes em turno e returno, os
+10 confrontos da rodada 35 foram inferidos como o returno invertido da rodada
+16, e os 10 confrontos da rodada 38 como o returno invertido da rodada 19.
+Esse padrão foi verificado nas demais rodadas de ida e volta disponíveis.
+As datas desses 20 jogos ficam como "A definir"; os confrontos são inferidos,
+não apresentados como dados publicados pelo oGol.
+
+Os resultados e as previsões são estimativas estatísticas, não garantias.

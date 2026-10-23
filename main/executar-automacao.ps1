@@ -33,6 +33,13 @@ if ($missingPackages) {
     }
 }
 
-Set-Location $projectRoot
-& $rscript (Join-Path $PSScriptRoot "main.R") @Argumentos
-exit $LASTEXITCODE
+$originalLocation = Get-Location
+try {
+    Set-Location $projectRoot
+    & $rscript (Join-Path $PSScriptRoot "main.R") @Argumentos
+    $exitCode = $LASTEXITCODE
+} finally {
+    Set-Location $originalLocation
+}
+
+exit $exitCode

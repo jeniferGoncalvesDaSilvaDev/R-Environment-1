@@ -8,11 +8,37 @@ if (length(file_arg) == 0) {
 
 main_file <- normalizePath(sub("^--file=", "", file_arg[[1]]))
 main_dir <- dirname(main_file)
-project_dir <- file.path(main_dir, "ds-futebol", "ds-futebol")
+script_dir <- file.path(main_dir, "ds-futebol", "ds-futebol")
+project_dir <- script_dir
 presentation_file <- file.path(main_dir, "mostrar-previsoes.R")
+
+project_arg <- match("--projeto", args)
+if (!is.na(project_arg)) {
+  if (project_arg == length(args)) {
+    stop("Use --projeto acompanhado do caminho da pasta de dados.")
+  }
+
+  requested_project_dir <- args[[project_arg + 1L]]
+  is_absolute_path <- grepl("^[A-Za-z]:", requested_project_dir) ||
+    startsWith(requested_project_dir, "\\\\") ||
+    startsWith(requested_project_dir, "/")
+  if (!is_absolute_path) {
+    requested_project_dir <- file.path(main_dir, requested_project_dir)
+  }
+
+  project_dir <- normalizePath(
+    requested_project_dir,
+    winslash = "\\",
+    mustWork = FALSE
+  )
+}
 
 if (!dir.exists(project_dir)) {
   stop("Pasta do projeto não encontrada: ", project_dir)
+}
+
+if (!file.exists(file.path(project_dir, "config.R"))) {
+  stop("Arquivo config.R não encontrado na pasta de dados: ", project_dir)
 }
 
 if (!file.exists(presentation_file)) {
@@ -20,8 +46,12 @@ if (!file.exists(presentation_file)) {
 }
 
 setwd(project_dir)
-source("config.R")
+source(file.path(project_dir, "config.R"))
 source(presentation_file)
+
+if ("--teste" %in% args && "--simulacoes" %in% args) {
+  stop("Use --teste ou --simulacoes, não os dois ao mesmo tempo.")
+}
 
 if ("--teste" %in% args) {
   numero_de_campeonatos_ficticios <- 100L
@@ -103,7 +133,7 @@ cat("Validação concluída: ", nrow(resultados), " linhas em Resultados.csv e "
 
 run_step <- function(script_file, expected_file = NULL) {
   cat("Executando ", script_file, "...\n", sep = "")
-  source(script_file, echo = FALSE)
+  source(file.path(script_dir, script_file), echo = FALSE)
 
   if (!is.null(expected_file) && !file.exists(expected_file)) {
     stop("O script terminou, mas não gerou: ", expected_file)
@@ -149,10 +179,10 @@ if (file.exists(probabilidades_file)) {
     check.names = FALSE
   )
 
-  if (all(c("Time", "Titulo", "Acesso", "Rebaixamento") %in% names(probabilidades))) {
+  if (all(c("Time", "Titulo", nome_classificacao_top4, "Rebaixamento") %in% names(probabilidades))) {
     melhores <- probabilidades[
-      order(-probabilidades$Titulo, -probabilidades$Acesso),
-      c("Time", "Titulo", "Acesso", "Rebaixamento")
+      order(-probabilidades$Titulo, -probabilidades[[nome_classificacao_top4]]),
+      c("Time", "Titulo", nome_classificacao_top4, "Rebaixamento")
     ]
     melhores <- head(melhores, 5L)
     summary_lines <- c(
@@ -164,7 +194,7 @@ if (file.exists(probabilidades_file)) {
           paste0(
             row[["Time"]],
             " | título: ", row[["Titulo"]],
-            " | acesso: ", row[["Acesso"]],
+            " | ", nome_classificacao_top4, ": ", row[[nome_classificacao_top4]],
             " | rebaixamento: ", row[["Rebaixamento"]]
           )
         }),

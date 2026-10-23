@@ -1,4 +1,6 @@
-source("config.R")
+if (!exists("liga", inherits = TRUE)) {
+  source("config.R")
+}
 suppressPackageStartupMessages(library(dplyr))
 
 # Leitura dos dados

@@ -8,3 +8,4 @@ liga <- "Série B"
 ano <- 2025L
 numero_de_campeonatos_ficticios <- 1000L
 semente <- 2025L
+nome_classificacao_top4 <- if (grepl("Série A", liga, fixed = TRUE)) "G4" else "Acesso"
